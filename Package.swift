@@ -29,8 +29,7 @@ let package = Package(
         // tag and verified against the checksum below.
         .binaryTarget(
             name: "Mergen",
-            url: "https://github.com/DanielPHP01/MergenSDK-iOS/releases/download/v2.2.0/MergenSwift.xcframework.zip",
-            checksum: "c48b77bdde3e56697b90cd88dc4587d7addcd3a4763a7110b8e1aa3fe15044e5"
+            path: "MergenSwift.xcframework"
         ),
         // Model assets — a source target, because a binaryTarget cannot carry
         // SPM resources, and embedding them per-slice would duplicate ~73 MB
