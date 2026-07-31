@@ -135,6 +135,42 @@ public struct VerifyResult {
   public static func failed(message: Swift.String, messageEn: Swift.String, frontPhoto: UIKit.UIImage? = nil, backPhoto: UIKit.UIImage? = nil) -> Mergen.VerifyResult
   #endif
 }
+public enum VerifySideIssue : Swift.Equatable {
+  case wrongSide
+  case notRecognized
+  public static func == (a: Mergen.VerifySideIssue, b: Mergen.VerifySideIssue) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Mergen.VerifyResult {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var frontDetectedGeneration: Mergen.MergenDocGeneration? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var backDetectedGeneration: Mergen.MergenDocGeneration? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var frontIssue: Mergen.VerifySideIssue? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var backIssue: Mergen.VerifySideIssue? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var generationMismatch: (front: Mergen.MergenDocGeneration, back: Mergen.MergenDocGeneration)? {
+    get
+  }
+  #endif
+}
 public struct MergenConfig {
   public var leanFields: Swift.Bool
   public var strictSameDocument: Swift.Bool
@@ -145,8 +181,8 @@ public struct MergenConfig {
   public init()
 }
 public enum MergenSDK {
-  @_Concurrency.MainActor public static func warmUp(license: Swift.String, leanFields: Swift.Bool = false, useUnifiedDetector: Swift.Bool = false)
-  @_Concurrency.MainActor public static func preload(licenseKey: Swift.String, leanFields: Swift.Bool = true, useUnifiedDetector: Swift.Bool = false)
+  @_Concurrency.MainActor public static func warmUp(license: Swift.String, leanFields: Swift.Bool = true, useUnifiedDetector: Swift.Bool = true)
+  @_Concurrency.MainActor public static func preload(licenseKey: Swift.String, leanFields: Swift.Bool = true, useUnifiedDetector: Swift.Bool = true)
   #if compiler(>=5.3) && $NonescapableTypes
   public static func verify(front: UIKit.UIImage, back: UIKit.UIImage, license: Swift.String, configure: ((inout Mergen.MergenConfig) -> Swift.Void)? = nil) async throws -> Mergen.VerifyResult
   #endif
@@ -160,6 +196,9 @@ public enum MergenError : Swift.Error, Foundation.LocalizedError {
     get
   }
   #endif
+  public var userMessage: Swift.String {
+    get
+  }
   public static func == (a: Mergen.MergenError, b: Mergen.MergenError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -198,6 +237,7 @@ public struct MergenIdResult {
   public let errorMessage: Swift.String?
   public let cardVersion: Mergen.CardVersion
   public let isFlipped: Swift.Bool
+  @available(*, deprecated, message: "Используйте MergenSDK.verify(front:back:license:) → VerifyResult для получения верифицированных данных документа. Поле ocrResult предоставляет сырые OCR-данные без кросс-сторонней верификации и будет удалено в v3.0.")
   public var ocrResult: Mergen.MergenOCRResult?
   public var fieldProgressJson: Swift.String
   public var croppedImageBack: UIKit.UIImage?
@@ -206,6 +246,7 @@ public struct MergenIdResult {
     get
   }
 }
+@available(*, deprecated, message: "Для получения данных документа используйте VerifyResult через MergenSDK.verify(front:back:license:) или MergenSDK.verifyCards(front:back:license:). MergenOCRResult даёт доступ к сырым OCR-полям внутреннего конвейера без кросс-сторонней верификации и будет удалён из публичного API в v3.0.")
 public struct MergenOCRResult {
   public var lastName: Swift.String?
   public var firstName: Swift.String?
@@ -242,15 +283,43 @@ public struct MergenScanResult {
   public let pin: Swift.String?
   public let mrz: Swift.String?
   public let croppedPhoto: UIKit.UIImage?
+  @available(*, deprecated, message: "Поле отладочного архива, не часть клиентского контракта; станет internal в v3.0.")
   public var originalPhoto: UIKit.UIImage?
+  @available(*, deprecated, message: "Поле отладочного архива, не часть клиентского контракта; станет internal в v3.0.")
   public var finalJson: Swift.String?
   public var hasSideSnapshot: Swift.Bool {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var detectedSide: Mergen.MIDSide? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public var generation: Mergen.MergenDocGeneration? {
+    get
+  }
+  #endif
+}
+public enum MergenDocGeneration : Swift.String, Swift.CaseIterable {
+  case y2008
+  case y2017
+  case y2025
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.String)
+  #endif
+  public typealias AllCases = [Mergen.MergenDocGeneration]
+  public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [Mergen.MergenDocGeneration] {
+    get
+  }
+  public var rawValue: Swift.String {
     get
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct MergenScanView : SwiftUICore.View {
   #if compiler(>=5.3) && $NonescapableTypes
-  @_Concurrency.MainActor @preconcurrency public init(side: Mergen.MIDSide, license: Swift.String? = nil, configuration: Mergen.MergenScannerConfig = .init(), bboxColor: Swift.String? = nil, bboxStyle: Mergen.BBoxDrawStyle = .cornersOnly, strokeWidth: CoreFoundation.CGFloat = 3, cornerLength: CoreFoundation.CGFloat = 28, showGuideFrame: Swift.Bool = false, progressBottomInset: CoreFoundation.CGFloat = 0, onState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil, onResult: @escaping (Mergen.MergenScanResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(side: Mergen.MIDSide, license: Swift.String? = nil, configuration: Mergen.MergenScannerConfig = .init(), bboxColor: Swift.String? = nil, bboxStyle: Mergen.BBoxDrawStyle = .cornersOnly, strokeWidth: CoreFoundation.CGFloat = 3, cornerLength: CoreFoundation.CGFloat = 28, showGuideFrame: Swift.Bool = false, progressBottomInset: CoreFoundation.CGFloat = 0, scanRoi: CoreFoundation.CGRect? = nil, onState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil, onResult: @escaping (Mergen.MergenScanResult) -> Swift.Void)
   #endif
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -262,6 +331,13 @@ extension Mergen.MergenSDK {
   public static func makeScanResult(idResult: Mergen.MergenIdResult, side: Mergen.MIDSide, croppedPhoto: UIKit.UIImage? = nil) -> Mergen.MergenScanResult
   #endif
   public static func verifyCards(front: Mergen.MergenScanResult, back: Mergen.MergenScanResult, license: Swift.String, strict: Swift.Bool = false) async throws -> Mergen.VerifyResult
+  public enum MergenSideInput {
+    case scan(Mergen.MergenScanResult)
+    case image(UIKit.UIImage)
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func verify(front: Mergen.MergenSDK.MergenSideInput, back: Mergen.MergenSDK.MergenSideInput, license: Swift.String, strict: Swift.Bool = false, configure: ((inout Mergen.MergenConfig) -> Swift.Void)? = nil) async throws -> Mergen.VerifyResult
+  #endif
 }
 public enum SideExpectation {
   case any
@@ -371,9 +447,9 @@ extension Mergen.MergenScannerView where Overlay == SwiftUICore.EmptyView {
   @_Concurrency.MainActor final public func stopScanning()
   @_Concurrency.MainActor final public func release()
   @_Concurrency.MainActor final public func setFlashlightEnabled(_ enabled: Swift.Bool)
-  @available(*, deprecated, renamed: "startScanning()", message: "Use updateViewSize(_:) + startScanning() — renamed for cross-platform consistency (Phase A6).")
+  @available(*, deprecated, renamed: "startScanning()", message: "Используйте updateViewSize(_:) + startScanning() — переименовано для кросс-платформенной согласованности (Phase A6).")
   @_Concurrency.MainActor final public func start(viewSize: CoreFoundation.CGSize = .zero)
-  @available(*, deprecated, renamed: "stopScanning()", message: "Renamed for cross-platform consistency (Phase A6).")
+  @available(*, deprecated, renamed: "stopScanning()", message: "Переименовано для кросс-платформенной согласованности (Phase A6).")
   @_Concurrency.MainActor final public func stop()
   @_Concurrency.MainActor final public func updateViewSize(_ size: CoreFoundation.CGSize)
   @_Concurrency.MainActor final public func updateStyle(_ style: Mergen.ScannerStyle)
@@ -414,14 +490,14 @@ extension Mergen.MergenScannerDelegate {
   @_Concurrency.MainActor @preconcurrency final public func reset()
   @_Concurrency.MainActor @preconcurrency final public func startScanning()
   @_Concurrency.MainActor @preconcurrency final public func stopScanning()
-  @available(*, deprecated, renamed: "stopScanning()", message: "Renamed for cross-platform consistency (Phase A6).")
+  @available(*, deprecated, renamed: "stopScanning()", message: "Переименовано для кросс-платформенной согласованности (Phase A6).")
   @_Concurrency.MainActor @preconcurrency final public func stopScanner()
   @_Concurrency.MainActor @preconcurrency final public func release()
   @_Concurrency.MainActor @preconcurrency final public func setFlashlightEnabled(_ enabled: Swift.Bool)
   @objc deinit
 }
 extension Mergen.MergenScannerViewController : PhotosUI.PHPickerViewControllerDelegate {
-  @available(*, deprecated, message: "SDK-embedded gallery picker is removed in v3.0 — present your own PHPicker and pass the image to processGalleryImage/analyzeImage; see docs/dev/migration-v3.md")
+  @available(*, deprecated, message: "Встроенный галерейный пикер SDK удалён в v3.0 — откройте собственный PHPicker и передайте изображение в processGalleryImage/analyzeImage; см. docs/dev/migration-v3.md")
   @_Concurrency.MainActor @preconcurrency final public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
 }
 public typealias ScannerUIOverlayRenderer = (_ context: CoreGraphics.CGContext, _ state: Mergen.ScannerFrameState, _ viewWidth: CoreFoundation.CGFloat, _ viewHeight: CoreFoundation.CGFloat) -> Swift.Void
@@ -487,6 +563,7 @@ public struct ScannerFrameState {
   public let isAnalyzing: Swift.Bool
   public var isScanning: Swift.Bool
   public var isCardInGuide: Swift.Bool
+  public var scanRoiInView: CoreFoundation.CGRect?
   public static let empty: Mergen.ScannerFrameState
 }
 public enum BBoxDrawStyle {
@@ -627,12 +704,16 @@ extension Mergen.MergenResultView : Swift.Sendable {}
 extension Mergen.VerifyStatus : Swift.Equatable {}
 extension Mergen.VerifyStatus : Swift.Hashable {}
 extension Mergen.VerifyStatus : Swift.RawRepresentable {}
+extension Mergen.VerifySideIssue : Swift.Hashable {}
 extension Mergen.MergenError : Swift.Equatable {}
 extension Mergen.MergenError : Swift.Hashable {}
 extension Mergen.MergenPhotoPicker : Swift.Sendable {}
 extension Mergen.MergenPhotoPicker.Coordinator : Swift.Sendable {}
 extension Mergen.MIDSide : Swift.Equatable {}
 extension Mergen.MIDSide : Swift.Hashable {}
+extension Mergen.MergenDocGeneration : Swift.Equatable {}
+extension Mergen.MergenDocGeneration : Swift.Hashable {}
+extension Mergen.MergenDocGeneration : Swift.RawRepresentable {}
 extension Mergen.MergenScanView : Swift.Sendable {}
 extension Mergen.SideExpectation : Swift.Equatable {}
 extension Mergen.SideExpectation : Swift.Hashable {}

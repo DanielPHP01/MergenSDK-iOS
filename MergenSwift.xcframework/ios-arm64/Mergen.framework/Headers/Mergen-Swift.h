@@ -307,29 +307,29 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSCoder;
 @class NSString;
 @class NSBundle;
-/// UIKit drop-in view controller for ID card scanning.
-/// <em>Present modally:</em>
+/// Готовый к использованию UIKit view controller для сканирования ID-карт.
+/// <em>Модальная презентация:</em>
 /// \code
 /// let vc = MergenScannerViewController(licenseKey: myLicense)
 /// vc.delegate = self
 /// present(vc, animated: true)
 ///
-/// \endcode<em>Customise style:</em>
+/// \endcode<em>Настройка стиля:</em>
 /// \code
 /// let vc = MergenScannerViewController(
 ///     licenseKey: myLicense,
 ///     style: ScannerStyle { $0.bboxDrawStyle = .cornersOnly }
 /// )
 ///
-/// \endcode<em>Programmatic result + style — no delegate:</em>
+/// \endcode<em>Результат через замыкание + стиль — без delegate:</em>
 /// \code
 /// let vc = MergenScannerViewController(licenseKey: myLicense)
 /// vc.onFinished = { [weak self] result in self?.handle(result) }
 ///
-/// \endcode<em>Custom overlay renderer (full Canvas control):</em>
+/// \endcode<em>Кастомный рендерер оверлея (полный контроль Canvas):</em>
 /// \code
 /// vc.customOverlayRenderer = { canvas, state, w, h in
-///     // state.cardBoundsInView is already in view coordinates
+///     // state.cardBoundsInView уже в координатах вида
 ///     guard let rect = state.cardBoundsInView else { return }
 ///     myPaint.setStroke()
 ///     UIBezierPath(ovalIn: rect).stroke()

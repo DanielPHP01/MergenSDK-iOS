@@ -86,7 +86,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen15ConfidenceBadgeO7unknownyA2CmF",
             "mangledName": "$s6Mergen15ConfidenceBadgeO7unknownyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -123,7 +126,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen15ConfidenceBadgeO7missingyA2CmF",
             "mangledName": "$s6Mergen15ConfidenceBadgeO7missingyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -160,7 +166,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen15ConfidenceBadgeO9uncertainyA2CmF",
             "mangledName": "$s6Mergen15ConfidenceBadgeO9uncertainyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -197,7 +206,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen15ConfidenceBadgeO8probableyA2CmF",
             "mangledName": "$s6Mergen15ConfidenceBadgeO8probableyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -234,7 +246,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen15ConfidenceBadgeO9confirmedyA2CmF",
             "mangledName": "$s6Mergen15ConfidenceBadgeO9confirmedyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -440,7 +455,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen19SameDocumentVerdictO7unknownyA2CmF",
             "mangledName": "$s6Mergen19SameDocumentVerdictO7unknownyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -477,7 +495,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen19SameDocumentVerdictO10singleSideyA2CmF",
             "mangledName": "$s6Mergen19SameDocumentVerdictO10singleSideyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -514,7 +535,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen19SameDocumentVerdictO04sameC0yA2CmF",
             "mangledName": "$s6Mergen19SameDocumentVerdictO04sameC0yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -551,7 +575,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen19SameDocumentVerdictO15sameWithWarningyA2CmF",
             "mangledName": "$s6Mergen19SameDocumentVerdictO15sameWithWarningyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -588,7 +615,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen19SameDocumentVerdictO8mismatchyA2CmF",
             "mangledName": "$s6Mergen19SameDocumentVerdictO8mismatchyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -932,7 +962,8 @@
             "mangledName": "$s6Mergen17FieldAvailabilityV9hasVisDoc0dE3Pin0D3MrzACSb_S2btcfc",
             "moduleName": "Mergen",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -1002,7 +1033,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen9MatchKindO7unknownyA2CmF",
             "mangledName": "$s6Mergen9MatchKindO7unknownyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1039,7 +1073,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen9MatchKindO7matchesyA2CmF",
             "mangledName": "$s6Mergen9MatchKindO7matchesyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1076,7 +1113,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen9MatchKindO8mismatchyA2CmF",
             "mangledName": "$s6Mergen9MatchKindO8mismatchyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -1113,7 +1153,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen9MatchKindO11unavailableyA2CmF",
             "mangledName": "$s6Mergen9MatchKindO11unavailableyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Function",
@@ -1302,7 +1345,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1346,7 +1390,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1390,7 +1435,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1434,7 +1480,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -1478,7 +1525,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -3567,6 +3615,327 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "frontDetectedGeneration",
+            "printedName": "frontDetectedGeneration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.MergenDocGeneration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV23frontDetectedGenerationAA0a3DocF0OSgvp",
+            "mangledName": "$s6Mergen12VerifyResultV23frontDetectedGenerationAA0a3DocF0OSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.MergenDocGeneration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV23frontDetectedGenerationAA0a3DocF0OSgvg",
+                "mangledName": "$s6Mergen12VerifyResultV23frontDetectedGenerationAA0a3DocF0OSgvg",
+                "moduleName": "Mergen",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backDetectedGeneration",
+            "printedName": "backDetectedGeneration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.MergenDocGeneration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV22backDetectedGenerationAA0a3DocF0OSgvp",
+            "mangledName": "$s6Mergen12VerifyResultV22backDetectedGenerationAA0a3DocF0OSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.MergenDocGeneration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV22backDetectedGenerationAA0a3DocF0OSgvg",
+                "mangledName": "$s6Mergen12VerifyResultV22backDetectedGenerationAA0a3DocF0OSgvg",
+                "moduleName": "Mergen",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frontIssue",
+            "printedName": "frontIssue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.VerifySideIssue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySideIssue",
+                    "printedName": "Mergen.VerifySideIssue",
+                    "usr": "s:6Mergen15VerifySideIssueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV10frontIssueAA0b4SideE0OSgvp",
+            "mangledName": "$s6Mergen12VerifyResultV10frontIssueAA0b4SideE0OSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.VerifySideIssue?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySideIssue",
+                        "printedName": "Mergen.VerifySideIssue",
+                        "usr": "s:6Mergen15VerifySideIssueO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV10frontIssueAA0b4SideE0OSgvg",
+                "mangledName": "$s6Mergen12VerifyResultV10frontIssueAA0b4SideE0OSgvg",
+                "moduleName": "Mergen",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backIssue",
+            "printedName": "backIssue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.VerifySideIssue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySideIssue",
+                    "printedName": "Mergen.VerifySideIssue",
+                    "usr": "s:6Mergen15VerifySideIssueO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV9backIssueAA0b4SideE0OSgvp",
+            "mangledName": "$s6Mergen12VerifyResultV9backIssueAA0b4SideE0OSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.VerifySideIssue?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySideIssue",
+                        "printedName": "Mergen.VerifySideIssue",
+                        "usr": "s:6Mergen15VerifySideIssueO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV9backIssueAA0b4SideE0OSgvg",
+                "mangledName": "$s6Mergen12VerifyResultV9backIssueAA0b4SideE0OSgvg",
+                "moduleName": "Mergen",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generationMismatch",
+            "printedName": "generationMismatch",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(front: Mergen.MergenDocGeneration, back: Mergen.MergenDocGeneration)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(front: Mergen.MergenDocGeneration, back: Mergen.MergenDocGeneration)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV18generationMismatchAA0A13DocGenerationO5front_AF4backtSgvp",
+            "mangledName": "$s6Mergen12VerifyResultV18generationMismatchAA0A13DocGenerationO5front_AF4backtSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(front: Mergen.MergenDocGeneration, back: Mergen.MergenDocGeneration)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(front: Mergen.MergenDocGeneration, back: Mergen.MergenDocGeneration)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenDocGeneration",
+                            "printedName": "Mergen.MergenDocGeneration",
+                            "usr": "s:6Mergen0A13DocGenerationO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenDocGeneration",
+                            "printedName": "Mergen.MergenDocGeneration",
+                            "usr": "s:6Mergen0A13DocGenerationO"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV18generationMismatchAA0A13DocGenerationO5front_AF4backtSgvg",
+                "mangledName": "$s6Mergen12VerifyResultV18generationMismatchAA0A13DocGenerationO5front_AF4backtSgvg",
+                "moduleName": "Mergen",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -3591,6 +3960,227 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VerifySideIssue",
+        "printedName": "VerifySideIssue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "wrongSide",
+            "printedName": "wrongSide",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.VerifySideIssue.Type) -> Mergen.VerifySideIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySideIssue",
+                    "printedName": "Mergen.VerifySideIssue",
+                    "usr": "s:6Mergen15VerifySideIssueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.VerifySideIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySideIssue",
+                        "printedName": "Mergen.VerifySideIssue",
+                        "usr": "s:6Mergen15VerifySideIssueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen15VerifySideIssueO05wrongC0yA2CmF",
+            "mangledName": "$s6Mergen15VerifySideIssueO05wrongC0yA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notRecognized",
+            "printedName": "notRecognized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.VerifySideIssue.Type) -> Mergen.VerifySideIssue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VerifySideIssue",
+                    "printedName": "Mergen.VerifySideIssue",
+                    "usr": "s:6Mergen15VerifySideIssueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.VerifySideIssue.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VerifySideIssue",
+                        "printedName": "Mergen.VerifySideIssue",
+                        "usr": "s:6Mergen15VerifySideIssueO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen15VerifySideIssueO13notRecognizedyA2CmF",
+            "mangledName": "$s6Mergen15VerifySideIssueO13notRecognizedyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen15VerifySideIssueO9hashValueSivp",
+            "mangledName": "$s6Mergen15VerifySideIssueO9hashValueSivp",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen15VerifySideIssueO9hashValueSivg",
+                "mangledName": "$s6Mergen15VerifySideIssueO9hashValueSivg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen15VerifySideIssueO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s6Mergen15VerifySideIssueO4hash4intoys6HasherVz_tF",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerifySideIssue",
+                "printedName": "Mergen.VerifySideIssue",
+                "usr": "s:6Mergen15VerifySideIssueO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VerifySideIssue",
+                "printedName": "Mergen.VerifySideIssue",
+                "usr": "s:6Mergen15VerifySideIssueO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen15VerifySideIssueO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Mergen15VerifySideIssueO2eeoiySbAC_ACtFZ",
+            "moduleName": "Mergen",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Mergen15VerifySideIssueO",
+        "mangledName": "$s6Mergen15VerifySideIssueO",
+        "moduleName": "Mergen",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -4530,6 +5120,221 @@
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "MergenSideInput",
+            "printedName": "MergenSideInput",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "scan",
+                "printedName": "scan",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mergen.MergenSDK.MergenSideInput.Type) -> (Mergen.MergenScanResult) -> Mergen.MergenSDK.MergenSideInput",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Mergen.MergenScanResult) -> Mergen.MergenSDK.MergenSideInput",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenSideInput",
+                            "printedName": "Mergen.MergenSDK.MergenSideInput",
+                            "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenScanResult",
+                            "printedName": "Mergen.MergenScanResult",
+                            "usr": "s:6Mergen0A10ScanResultV"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Mergen.MergenSDK.MergenSideInput.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenSideInput",
+                            "printedName": "Mergen.MergenSDK.MergenSideInput",
+                            "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Mergen0A3SDKO0A9SideInputO4scanyAeA0A10ScanResultVcAEmF",
+                "mangledName": "$s6Mergen0A3SDKO0A9SideInputO4scanyAeA0A10ScanResultVcAEmF",
+                "moduleName": "Mergen",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "image",
+                "printedName": "image",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mergen.MergenSDK.MergenSideInput.Type) -> (UIKit.UIImage) -> Mergen.MergenSDK.MergenSideInput",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIImage) -> Mergen.MergenSDK.MergenSideInput",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenSideInput",
+                            "printedName": "Mergen.MergenSDK.MergenSideInput",
+                            "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIImage",
+                            "printedName": "UIKit.UIImage",
+                            "usr": "c:objc(cs)UIImage"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Mergen.MergenSDK.MergenSideInput.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "MergenSideInput",
+                            "printedName": "Mergen.MergenSDK.MergenSideInput",
+                            "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:6Mergen0A3SDKO0A9SideInputO5imageyAESo7UIImageCcAEmF",
+                "mangledName": "$s6Mergen0A3SDKO0A9SideInputO5imageyAESo7UIImageCcAEmF",
+                "moduleName": "Mergen",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:6Mergen0A3SDKO0A9SideInputO",
+            "mangledName": "$s6Mergen0A3SDKO0A9SideInputO",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "verify",
+            "printedName": "verify(front:back:license:strict:configure:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VerifyResult",
+                "printedName": "Mergen.VerifyResult",
+                "usr": "s:6Mergen12VerifyResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MergenSideInput",
+                "printedName": "Mergen.MergenSDK.MergenSideInput",
+                "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MergenSideInput",
+                "printedName": "Mergen.MergenSDK.MergenSideInput",
+                "usr": "s:6Mergen0A3SDKO0A9SideInputO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((inout Mergen.MergenConfig) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(inout Mergen.MergenConfig) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenConfig",
+                        "printedName": "Mergen.MergenConfig",
+                        "usr": "s:6Mergen0A6ConfigV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen0A3SDKO6verify5front4back7license6strict9configureAA12VerifyResultVAC0A9SideInputO_AMSSSbyAA0A6ConfigVzcSgtYaKFZ",
+            "mangledName": "$s6Mergen0A3SDKO6verify5front4back7license6strict9configureAA12VerifyResultVAC0A9SideInputO_AMSSSbyAA0A6ConfigVzcSgtYaKFZ",
+            "moduleName": "Mergen",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -4727,6 +5532,47 @@
                 "declKind": "Accessor",
                 "usr": "s:6Mergen0A5ErrorO16errorDescriptionSSSgvg",
                 "mangledName": "$s6Mergen0A5ErrorO16errorDescriptionSSSgvg",
+                "moduleName": "Mergen",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userMessage",
+            "printedName": "userMessage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A5ErrorO11userMessageSSvp",
+            "mangledName": "$s6Mergen0A5ErrorO11userMessageSSvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A5ErrorO11userMessageSSvg",
+                "mangledName": "$s6Mergen0A5ErrorO11userMessageSSvg",
                 "moduleName": "Mergen",
                 "accessorKind": "get"
               }
@@ -5089,7 +5935,8 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
@@ -5126,7 +5973,8 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5168,7 +6016,8 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5191,7 +6040,8 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -5245,7 +6095,8 @@
                 "declAttributes": [
                   "Preconcurrency",
                   "Custom",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "init_kind": "Designated"
               },
@@ -5288,7 +6139,8 @@
                   "Preconcurrency",
                   "Custom",
                   "Final",
-                  "AccessControl"
+                  "AccessControl",
+                  "RawDocComment"
                 ],
                 "funcSelfKind": "NonMutating"
               },
@@ -5539,7 +6391,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5591,7 +6444,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5651,7 +6505,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5703,7 +6558,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5747,7 +6603,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5799,7 +6656,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5896,7 +6754,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -5946,10 +6805,12 @@
             "usr": "s:6Mergen0A8IdResultV03ocrC0AA0A9OCRResultVSgvp",
             "mangledName": "$s6Mergen0A8IdResultV03ocrC0AA0A9OCRResultVSgvp",
             "moduleName": "Mergen",
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -6028,7 +6889,11 @@
                 "usr": "s:6Mergen0A8IdResultV03ocrC0AA0A9OCRResultVSgvM",
                 "mangledName": "$s6Mergen0A8IdResultV03ocrC0AA0A9OCRResultVSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6409,7 +7274,8 @@
         "mangledName": "$s6Mergen0A8IdResultV",
         "moduleName": "Mergen",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -6566,7 +7432,11 @@
                 "usr": "s:6Mergen0A9OCRResultV8lastNameSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV8lastNameSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6676,7 +7546,11 @@
                 "usr": "s:6Mergen0A9OCRResultV9firstNameSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV9firstNameSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6787,7 +7661,11 @@
                 "usr": "s:6Mergen0A9OCRResultV11lastNameLatSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV11lastNameLatSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -6898,7 +7776,11 @@
                 "usr": "s:6Mergen0A9OCRResultV12firstNameLatSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV12firstNameLatSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7008,7 +7890,11 @@
                 "usr": "s:6Mergen0A9OCRResultV10patronymicSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV10patronymicSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7118,7 +8004,11 @@
                 "usr": "s:6Mergen0A9OCRResultV6genderSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV6genderSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7228,7 +8118,11 @@
                 "usr": "s:6Mergen0A9OCRResultV11nationalitySSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV11nationalitySSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7338,7 +8232,11 @@
                 "usr": "s:6Mergen0A9OCRResultV9birthDateSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV9birthDateSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7448,7 +8346,11 @@
                 "usr": "s:6Mergen0A9OCRResultV9docNumberSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV9docNumberSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7558,7 +8460,11 @@
                 "usr": "s:6Mergen0A9OCRResultV10expiryDateSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV10expiryDateSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7668,7 +8574,11 @@
                 "usr": "s:6Mergen0A9OCRResultV10birthPlaceSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV10birthPlaceSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7778,7 +8688,11 @@
                 "usr": "s:6Mergen0A9OCRResultV8issuedBySSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV8issuedBySSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7888,7 +8802,11 @@
                 "usr": "s:6Mergen0A9OCRResultV9issueDateSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV9issueDateSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7998,7 +8916,11 @@
                 "usr": "s:6Mergen0A9OCRResultV14personalNumberSSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV14personalNumberSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8108,7 +9030,11 @@
                 "usr": "s:6Mergen0A9OCRResultV8mrzLine1SSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV8mrzLine1SSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8218,7 +9144,11 @@
                 "usr": "s:6Mergen0A9OCRResultV8mrzLine2SSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV8mrzLine2SSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8328,7 +9258,11 @@
                 "usr": "s:6Mergen0A9OCRResultV8mrzLine3SSSgvM",
                 "mangledName": "$s6Mergen0A9OCRResultV8mrzLine3SSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8457,7 +9391,11 @@
                 "usr": "s:6Mergen0A9OCRResultV9rawFieldsSDyS2SGvM",
                 "mangledName": "$s6Mergen0A9OCRResultV9rawFieldsSDyS2SGvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8488,8 +9426,10 @@
         "usr": "s:6Mergen0A9OCRResultV",
         "mangledName": "$s6Mergen0A9OCRResultV",
         "moduleName": "Mergen",
+        "deprecated": true,
         "declAttributes": [
           "AccessControl",
+          "Available",
           "RawDocComment"
         ],
         "conformances": [
@@ -9054,10 +9994,12 @@
             "usr": "s:6Mergen0A10ScanResultV13originalPhotoSo7UIImageCSgvp",
             "mangledName": "$s6Mergen0A10ScanResultV13originalPhotoSo7UIImageCSgvp",
             "moduleName": "Mergen",
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -9136,7 +10078,11 @@
                 "usr": "s:6Mergen0A10ScanResultV13originalPhotoSo7UIImageCSgvM",
                 "mangledName": "$s6Mergen0A10ScanResultV13originalPhotoSo7UIImageCSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9165,10 +10111,12 @@
             "usr": "s:6Mergen0A10ScanResultV9finalJsonSSSgvp",
             "mangledName": "$s6Mergen0A10ScanResultV9finalJsonSSSgvp",
             "moduleName": "Mergen",
+            "deprecated": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
+              "Available",
               "RawDocComment"
             ],
             "hasStorage": true,
@@ -9247,7 +10195,11 @@
                 "usr": "s:6Mergen0A10ScanResultV9finalJsonSSSgvM",
                 "mangledName": "$s6Mergen0A10ScanResultV9finalJsonSSSgvM",
                 "moduleName": "Mergen",
+                "deprecated": true,
                 "implicit": true,
+                "declAttributes": [
+                  "Available"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9292,6 +10244,120 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "detectedSide",
+            "printedName": "detectedSide",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.MIDSide?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MIDSide",
+                    "printedName": "Mergen.MIDSide",
+                    "usr": "s:6Mergen7MIDSideO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A10ScanResultV12detectedSideAA7MIDSideOSgvp",
+            "mangledName": "$s6Mergen0A10ScanResultV12detectedSideAA7MIDSideOSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.MIDSide?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MIDSide",
+                        "printedName": "Mergen.MIDSide",
+                        "usr": "s:6Mergen7MIDSideO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A10ScanResultV12detectedSideAA7MIDSideOSgvg",
+                "mangledName": "$s6Mergen0A10ScanResultV12detectedSideAA7MIDSideOSgvg",
+                "moduleName": "Mergen",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "generation",
+            "printedName": "generation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.MergenDocGeneration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A10ScanResultV10generationAA0A13DocGenerationOSgvp",
+            "mangledName": "$s6Mergen0A10ScanResultV10generationAA0A13DocGenerationOSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Mergen.MergenDocGeneration?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A10ScanResultV10generationAA0A13DocGenerationOSgvg",
+                "mangledName": "$s6Mergen0A10ScanResultV10generationAA0A13DocGenerationOSgvg",
+                "moduleName": "Mergen",
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
@@ -9321,13 +10387,354 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "MergenDocGeneration",
+        "printedName": "MergenDocGeneration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "y2008",
+            "printedName": "y2008",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.MergenDocGeneration.Type) -> Mergen.MergenDocGeneration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.MergenDocGeneration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen0A13DocGenerationO5y2008yA2CmF",
+            "mangledName": "$s6Mergen0A13DocGenerationO5y2008yA2CmF",
+            "moduleName": "Mergen"
+          },
+          {
+            "kind": "Var",
+            "name": "y2017",
+            "printedName": "y2017",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.MergenDocGeneration.Type) -> Mergen.MergenDocGeneration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.MergenDocGeneration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen0A13DocGenerationO5y2017yA2CmF",
+            "mangledName": "$s6Mergen0A13DocGenerationO5y2017yA2CmF",
+            "moduleName": "Mergen"
+          },
+          {
+            "kind": "Var",
+            "name": "y2025",
+            "printedName": "y2025",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.MergenDocGeneration.Type) -> Mergen.MergenDocGeneration",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.MergenDocGeneration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen0A13DocGenerationO5y2025yA2CmF",
+            "mangledName": "$s6Mergen0A13DocGenerationO5y2025yA2CmF",
+            "moduleName": "Mergen"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.MergenDocGeneration?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Mergen0A13DocGenerationO8rawValueACSgSS_tcfc",
+            "mangledName": "$s6Mergen0A13DocGenerationO8rawValueACSgSS_tcfc",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A13DocGenerationO8rawValueSSvp",
+            "mangledName": "$s6Mergen0A13DocGenerationO8rawValueSSvp",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13DocGenerationO8rawValueSSvg",
+                "mangledName": "$s6Mergen0A13DocGenerationO8rawValueSSvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Mergen.MergenDocGeneration]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MergenDocGeneration",
+                    "printedName": "Mergen.MergenDocGeneration",
+                    "usr": "s:6Mergen0A13DocGenerationO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A13DocGenerationO8allCasesSayACGvpZ",
+            "mangledName": "$s6Mergen0A13DocGenerationO8allCasesSayACGvpZ",
+            "moduleName": "Mergen",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Mergen.MergenDocGeneration]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13DocGenerationO8allCasesSayACGvgZ",
+                "mangledName": "$s6Mergen0A13DocGenerationO8allCasesSayACGvgZ",
+                "moduleName": "Mergen",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Mergen0A13DocGenerationO",
+        "mangledName": "$s6Mergen0A13DocGenerationO",
+        "moduleName": "Mergen",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Mergen.MergenDocGeneration]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MergenDocGeneration",
+                        "printedName": "Mergen.MergenDocGeneration",
+                        "usr": "s:6Mergen0A13DocGenerationO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "MergenScanView",
         "printedName": "MergenScanView",
         "children": [
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(side:license:configuration:bboxColor:bboxStyle:strokeWidth:cornerLength:showGuideFrame:progressBottomInset:onState:onResult:)",
+            "printedName": "init(side:license:configuration:bboxColor:bboxStyle:strokeWidth:cornerLength:showGuideFrame:progressBottomInset:scanRoi:onState:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -9416,6 +10823,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "((Mergen.ScannerFrameState) -> ())?",
                 "children": [
                   {
@@ -9460,8 +10882,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7onState0T6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVAqA08BBoxDrawI0O14CoreFoundation7CGFloatVAXSbAXyAA0xpU0VcSgyAA0abV0Vctcfc",
-            "mangledName": "$s6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7onState0T6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVAqA08BBoxDrawI0O12CoreGraphics7CGFloatVAXSbAXyAA0xpU0VcSgyAA0abV0Vctcfc",
+            "usr": "s:6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7onState0V6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVArA08BBoxDrawI0O14CoreFoundation7CGFloatVAYSbAYSo6CGRectVSgyAA0zpW0VcSgyAA0abX0Vctcfc",
+            "mangledName": "$s6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7onState0V6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVArA08BBoxDrawI0O12CoreGraphics7CGFloatVAYSbAYSo6CGRectVSgyAA0zpW0VcSgyAA0abX0Vctcfc",
             "moduleName": "Mergen",
             "declAttributes": [
               "Preconcurrency",
@@ -16002,7 +17424,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11EngineStateO4idleyA2CmF",
             "mangledName": "$s6Mergen11EngineStateO4idleyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16039,7 +17464,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11EngineStateO9detectingyA2CmF",
             "mangledName": "$s6Mergen11EngineStateO9detectingyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16076,7 +17504,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11EngineStateO8capturedyA2CmF",
             "mangledName": "$s6Mergen11EngineStateO8capturedyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16113,7 +17544,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11EngineStateO15finishedSuccessyA2CmF",
             "mangledName": "$s6Mergen11EngineStateO15finishedSuccessyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16150,7 +17584,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11EngineStateO15finishedFailureyA2CmF",
             "mangledName": "$s6Mergen11EngineStateO15finishedFailureyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -16230,7 +17667,8 @@
         "mangledName": "$s6Mergen11EngineStateO",
         "moduleName": "Mergen",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -16326,7 +17764,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO7unknownyA2CmF",
             "mangledName": "$s6Mergen11CardVersionO7unknownyA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16363,7 +17804,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO8back2008yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO8back2008yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16400,7 +17844,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO8back2017yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO8back2017yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16437,7 +17884,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO8back2025yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO8back2025yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16474,7 +17924,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO9front2008yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO9front2008yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16511,7 +17964,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO9front2017yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO9front2017yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Var",
@@ -16548,7 +18004,10 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen11CardVersionO9front2025yA2CmF",
             "mangledName": "$s6Mergen11CardVersionO9front2025yA2CmF",
-            "moduleName": "Mergen"
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
           },
           {
             "kind": "Constructor",
@@ -16628,7 +18087,8 @@
         "mangledName": "$s6Mergen11CardVersionO",
         "moduleName": "Mergen",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -17299,7 +18759,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17343,7 +18804,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17448,7 +18910,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17537,7 +19000,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17581,7 +19045,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17625,7 +19090,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17669,7 +19135,8 @@
             "moduleName": "Mergen",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -17961,6 +19428,117 @@
           },
           {
             "kind": "Var",
+            "name": "scanRoiInView",
+            "printedName": "scanRoiInView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreFoundation.CGRect?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGRect?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGRect?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "empty",
             "printedName": "empty",
             "children": [
@@ -17979,7 +19557,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -18451,7 +20030,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18624,7 +20204,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18884,7 +20465,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18970,7 +20552,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19056,7 +20639,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19316,7 +20900,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19402,7 +20987,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19488,7 +21074,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19574,7 +21161,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19660,7 +21248,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -19920,7 +21509,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20006,7 +21596,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20092,7 +21683,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20178,7 +21770,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -20438,7 +22031,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -24273,301 +25867,301 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 1880,
+      "offset": 2343,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 1911,
+      "offset": 2503,
       "length": 9,
       "value": "\"MISSING\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 1942,
+      "offset": 2653,
       "length": 11,
       "value": "\"UNCERTAIN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 1975,
+      "offset": 2784,
       "length": 10,
       "value": "\"PROBABLE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 2007,
+      "offset": 2954,
       "length": 11,
       "value": "\"CONFIRMED\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3058,
+      "offset": 4499,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3095,
+      "offset": 4658,
       "length": 13,
       "value": "\"SINGLE_SIDE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3136,
+      "offset": 4838,
       "length": 15,
       "value": "\"SAME_DOCUMENT\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3179,
+      "offset": 5031,
       "length": 19,
       "value": "\"SAME_WITH_WARNING\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3226,
+      "offset": 5283,
       "length": 10,
       "value": "\"MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3751,
+      "offset": 5877,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3792,
+      "offset": 5918,
       "length": 6,
       "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3830,
+      "offset": 5956,
       "length": 6,
       "value": "\"BLUR\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3868,
+      "offset": 5994,
       "length": 7,
       "value": "\"GLARE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3907,
+      "offset": 6033,
       "length": 6,
       "value": "\"DARK\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3945,
+      "offset": 6071,
       "length": 14,
       "value": "\"PARTIAL_CROP\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 3991,
+      "offset": 6117,
       "length": 20,
       "value": "\"FIELD_NOT_DETECTED\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4043,
+      "offset": 6169,
       "length": 15,
       "value": "\"CHECKSUM_FAIL\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4090,
+      "offset": 6216,
       "length": 16,
       "value": "\"LOW_CONFIDENCE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4138,
+      "offset": 6264,
       "length": 14,
       "value": "\"SIDE_MISSING\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4184,
+      "offset": 6310,
       "length": 15,
       "value": "\"SIDE_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4231,
+      "offset": 6357,
       "length": 20,
       "value": "\"CREDENTIAL_EXPIRED\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4283,
+      "offset": 6409,
       "length": 16,
       "value": "\"FIELD_MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4708,
+      "offset": 6834,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4744,
+      "offset": 6870,
       "length": 6,
       "value": "\"NONE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4777,
+      "offset": 6903,
       "length": 14,
       "value": "\"RETAKE_FRONT\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4818,
+      "offset": 6944,
       "length": 13,
       "value": "\"RETAKE_BACK\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 4858,
+      "offset": 6984,
       "length": 17,
       "value": "\"RETAKE_SIDE_MRZ\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5435,
+      "offset": 7561,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5466,
+      "offset": 7592,
       "length": 6,
       "value": "\"INFO\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5494,
+      "offset": 7620,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5525,
+      "offset": 7651,
       "length": 11,
       "value": "\"RETRYABLE\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5558,
+      "offset": 7684,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5874,
+      "offset": 8000,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5903,
+      "offset": 8029,
       "length": 7,
       "value": "\"FRONT\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 5930,
+      "offset": 8056,
       "length": 6,
       "value": "\"BACK\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 8756,
+      "offset": 11497,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 8780,
+      "offset": 11521,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 8802,
+      "offset": 11543,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 13925,
+      "offset": 17249,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 13958,
+      "offset": 17529,
       "length": 9,
       "value": "\"MATCHES\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 13991,
+      "offset": 17648,
       "length": 10,
       "value": "\"MISMATCH\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/IdentityResult.swift",
       "kind": "StringLiteral",
-      "offset": 14025,
+      "offset": 17811,
       "length": 13,
       "value": "\"UNAVAILABLE\""
     },
@@ -24791,126 +26385,140 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2404,
+      "offset": 2855,
       "length": 9,
       "value": "\"UNKNOWN\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2441,
+      "offset": 2892,
       "length": 10,
       "value": "\"VERIFIED\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 3072,
       "length": 17,
       "value": "\"VERIFIED_VISUAL\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2612,
+      "offset": 3117,
       "length": 14,
       "value": "\"FAILED_FRONT\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2654,
+      "offset": 3159,
       "length": 13,
       "value": "\"FAILED_BACK\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 2695,
+      "offset": 3200,
       "length": 8,
       "value": "\"FAILED\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "Array",
-      "offset": 9321,
+      "offset": 11496,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 13701,
+      "offset": 21559,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 13748,
+      "offset": 21606,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "IntegerLiteral",
-      "offset": 14091,
+      "offset": 22177,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 14136,
+      "offset": 22222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 14595,
-      "length": 5,
-      "value": "false"
+      "offset": 23257,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 15812,
+      "offset": 25019,
       "length": 8,
       "value": "\"Mergen\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 17472,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 17506,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
-      "kind": "BooleanLiteral",
-      "offset": 19752,
+      "offset": 27849,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 19785,
-      "length": 5,
-      "value": "false"
+      "offset": 27882,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 34430,
+      "offset": 31130,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31163,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
+      "kind": "StringLiteral",
+      "offset": 46760,
+      "length": 12,
+      "value": "\"com.mergen\""
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
+      "kind": "StringLiteral",
+      "offset": 46784,
+      "length": 8,
+      "value": "\"engine\""
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
+      "kind": "BooleanLiteral",
+      "offset": 48505,
       "length": 5,
       "value": "false"
     },
@@ -24938,84 +26546,98 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 36039,
+      "offset": 1280,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1318,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37657,
       "length": 6,
       "value": "10000"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenHelpers.swift",
       "kind": "StringLiteral",
-      "offset": 1439,
+      "offset": 1879,
       "length": 9,
       "value": "\"license\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "Dictionary",
-      "offset": 1573,
+      "offset": 2921,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 2657,
+      "offset": 4005,
       "length": 6,
       "value": "1280.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "FloatLiteral",
-      "offset": 2707,
+      "offset": 4055,
       "length": 5,
       "value": "800.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 4143,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "Array",
-      "offset": 2931,
+      "offset": 4279,
       "length": 17,
       "value": "[7, 8, 9, 12, 13]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "Array",
-      "offset": 3133,
+      "offset": 4481,
       "length": 6,
       "value": "[1, 3]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "Array",
-      "offset": 3402,
+      "offset": 4750,
       "length": 6,
       "value": "[0, 2]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4017,
+      "offset": 5365,
       "length": 12,
       "value": "\"com.mergen\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 4041,
+      "offset": 5389,
       "length": 10,
       "value": "\"ocrtrace\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenOCRProcessor.swift",
       "kind": "StringLiteral",
-      "offset": 17261,
+      "offset": 18609,
       "length": 2,
       "value": "\"\""
     },
@@ -25035,512 +26657,624 @@
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "StringLiteral",
+      "offset": 7155,
+      "length": 6,
+      "value": "\"2008\""
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "StringLiteral",
+      "offset": 7179,
+      "length": 6,
+      "value": "\"2017\""
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "StringLiteral",
+      "offset": 7203,
+      "length": 6,
+      "value": "\"2025\""
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 8634,
+      "offset": 14317,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 8689,
+      "offset": 14372,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 8745,
+      "offset": 14428,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 8804,
+      "offset": 14487,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 21318,
+      "offset": 28271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 32824,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "FloatLiteral",
+      "offset": 35142,
+      "length": 4,
+      "value": "0.14"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35190,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35235,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35273,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "FloatLiteral",
+      "offset": 35276,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35290,
+      "length": 2,
+      "value": "38"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "FloatLiteral",
+      "offset": 35293,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35306,
+      "length": 2,
+      "value": "42"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "FloatLiteral",
+      "offset": 35309,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "FloatLiteral",
+      "offset": 35323,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "IntegerLiteral",
+      "offset": 35806,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35829,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "Array",
-      "offset": 34712,
+      "offset": 48526,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 34750,
+      "offset": 48564,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4546,
+      "offset": 6451,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 4648,
+      "offset": 6612,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 4927,
+      "offset": 7116,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 5899,
+      "offset": 8296,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 6357,
+      "offset": 9142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 10415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 7157,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7796,
+      "offset": 11514,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 9396,
+      "offset": 14516,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 10280,
+      "offset": 15922,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 11166,
+      "offset": 17437,
       "length": 4,
-      "value": "0.60"
+      "value": "0.65"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 12264,
+      "offset": 18932,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 13739,
+      "offset": 21328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 14347,
+      "offset": 22272,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 15159,
+      "offset": 23593,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 16475,
+      "offset": 28029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 17086,
-      "length": 5,
-      "value": "false"
+      "offset": 29084,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 12561,
+      "offset": 13387,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 17427,
+      "offset": 19648,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 20678,
+      "offset": 22899,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 20767,
+      "offset": 22988,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 21399,
+      "offset": 23620,
       "length": 5,
       "value": "0.350"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4434,
+      "offset": 4857,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15399,
+      "offset": 17125,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17402,
+      "offset": 19128,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 17406,
+      "offset": 19132,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17421,
+      "offset": 19147,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 159,
+      "offset": 589,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 182,
+      "offset": 745,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 204,
+      "offset": 862,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 233,
+      "offset": 1005,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 262,
+      "offset": 1210,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 319,
+      "offset": 1693,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 344,
+      "offset": 1784,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 368,
+      "offset": 1874,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 392,
+      "offset": 1964,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 416,
+      "offset": 2052,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 440,
+      "offset": 2140,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 464,
+      "offset": 2228,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 506,
+      "offset": 2270,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 532,
+      "offset": 2296,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 562,
+      "offset": 2326,
       "length": 3,
       "value": "101"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 595,
+      "offset": 2359,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 631,
+      "offset": 2395,
       "length": 3,
       "value": "201"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 660,
+      "offset": 2424,
       "length": 3,
       "value": "202"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 694,
+      "offset": 2458,
       "length": 3,
       "value": "203"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 723,
+      "offset": 2487,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 755,
+      "offset": 2519,
       "length": 3,
       "value": "301"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 791,
+      "offset": 2555,
       "length": 3,
       "value": "302"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 914,
+      "offset": 2678,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 945,
+      "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "FloatLiteral",
-      "offset": 977,
+      "offset": 2741,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "StringLiteral",
-      "offset": 1010,
+      "offset": 2774,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "StringLiteral",
-      "offset": 1045,
+      "offset": 2809,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "StringLiteral",
-      "offset": 1078,
+      "offset": 2842,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1138,
+      "offset": 2902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "FloatLiteral",
-      "offset": 1172,
+      "offset": 2936,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1203,
+      "offset": 2967,
       "length": 3,
       "value": "640"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 1234,
+      "offset": 2998,
       "length": 3,
       "value": "480"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1378,
+      "offset": 3142,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 1745,
+      "offset": 3509,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2109,
+      "offset": 3873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2564,
+      "offset": 4328,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2639,
+      "offset": 4403,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 2738,
+      "offset": 4502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 3459,
+      "offset": 5223,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 3829,
+      "offset": 5593,
       "length": 2,
       "value": "-1"
     },
@@ -25610,252 +27344,252 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2625,
+      "offset": 5136,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 2979,
+      "offset": 5740,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3072,
+      "offset": 7336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 3122,
+      "offset": 7386,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 3135,
+      "offset": 7399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "StringLiteral",
-      "offset": 3152,
+      "offset": 7416,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "StringLiteral",
-      "offset": 3169,
+      "offset": 7433,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3193,
+      "offset": 7457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3210,
+      "offset": 7474,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 3264,
+      "offset": 7528,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3280,
+      "offset": 7544,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 3299,
+      "offset": 7563,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2071,
+      "offset": 2845,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2186,
+      "offset": 2991,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2228,
+      "offset": 3158,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2364,
+      "offset": 3357,
       "length": 4,
       "value": "0.04"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 2655,
+      "offset": 4353,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2665,
+      "offset": 4363,
       "length": 4,
       "value": "0.88"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2677,
+      "offset": 4375,
       "length": 4,
       "value": "0.46"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 2931,
+      "offset": 5073,
       "length": 4,
       "value": "0.35"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 3122,
+      "offset": 5379,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 3165,
+      "offset": 5589,
       "length": 2,
       "value": "18"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 3326,
+      "offset": 6084,
       "length": 4,
       "value": "0.72"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 3376,
+      "offset": 6264,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 3506,
+      "offset": 6442,
       "length": 4,
       "value": "0.12"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 3999,
+      "offset": 7184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4056,
+      "offset": 7393,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 4066,
+      "offset": 7403,
       "length": 4,
       "value": "0.88"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 4078,
+      "offset": 7415,
       "length": 4,
       "value": "0.46"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "FloatLiteral",
-      "offset": 4147,
+      "offset": 7644,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4196,
+      "offset": 7802,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4245,
+      "offset": 7981,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "IntegerLiteral",
-      "offset": 4666,
+      "offset": 8720,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4878,
+      "offset": 9159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 4921,
+      "offset": 9524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerStyle.swift",
       "kind": "BooleanLiteral",
-      "offset": 5472,
+      "offset": 10405,
       "length": 5,
       "value": "false"
     },
@@ -26366,65 +28100,79 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxInterpolator.swift",
       "kind": "IntegerLiteral",
-      "offset": 8246,
+      "offset": 8693,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2926,
+      "offset": 2970,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 3565,
+      "offset": 3609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 3901,
+      "offset": 3945,
       "length": 4,
       "value": "1200"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "FloatLiteral",
-      "offset": 4025,
+      "offset": 4069,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "FloatLiteral",
-      "offset": 4157,
+      "offset": 4201,
       "length": 4,
       "value": "0.08"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "FloatLiteral",
-      "offset": 4348,
+      "offset": 4392,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 5658,
+      "offset": 6569,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 9810,
+      "offset": 10721,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
+      "kind": "FloatLiteral",
+      "offset": 11601,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
+      "kind": "FloatLiteral",
+      "offset": 11607,
+      "length": 4,
+      "value": "60.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
@@ -26505,15 +28253,22 @@
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24104,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
       "kind": "FloatLiteral",
-      "offset": 25274,
+      "offset": 31169,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 27109,
+      "offset": 33004,
       "length": 5,
       "value": "false"
     },
@@ -26898,133 +28653,147 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21571,
+      "offset": 21570,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22718,
+      "offset": 22717,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22814,
+      "offset": 22813,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 23342,
+      "offset": 24127,
       "length": 5,
       "value": "130.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23650,
-      "length": 2,
-      "value": "30"
+      "offset": 25302,
+      "length": 1,
+      "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23695,
+      "offset": 25346,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23738,
+      "offset": 25389,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23781,
+      "offset": 25432,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23829,
+      "offset": 25480,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26422,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 47873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 50802,
+      "offset": 58061,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 68396,
+      "offset": 75655,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 137916,
+      "offset": 154031,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 139711,
+      "offset": 155826,
       "length": 11,
       "value": "[6, 11, 12]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 139850,
+      "offset": 155965,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerOverlayRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 9798,
+      "offset": 12230,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerOverlayRenderer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12963,
+      "offset": 15395,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerOverlayRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 15317,
+      "offset": 17749,
       "length": 3,
       "value": "1.2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerOverlayRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 15406,
+      "offset": 17838,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerOverlayRenderer.swift",
       "kind": "FloatLiteral",
-      "offset": 15497,
+      "offset": 17929,
       "length": 4,
       "value": "0.85"
     }
