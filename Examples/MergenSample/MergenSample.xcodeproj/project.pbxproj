@@ -11,6 +11,7 @@
 		SAM000000000002 /* MergenSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SAM000000000020 /* MergenSampleApp.swift */; };
 		SAM000000000003 /* QuickstartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SAM000000000021 /* QuickstartView.swift */; };
 		SAM000000000004 /* NoLicenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SAM000000000022 /* NoLicenseView.swift */; };
+		SAM0000000000E1 /* license.json in Resources */ = {isa = PBXBuildFile; fileRef = SAM0000000000E2 /* license.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		SAM000000000020 /* MergenSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergenSampleApp.swift; sourceTree = "<group>"; };
 		SAM000000000021 /* QuickstartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickstartView.swift; sourceTree = "<group>"; };
 		SAM000000000022 /* NoLicenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoLicenseView.swift; sourceTree = "<group>"; };
+		SAM0000000000E2 /* license.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = license.json; sourceTree = "<group>"; };
 		SAM000000000023 /* MergenSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MergenSample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 			children = (
 				SAM000000000042 /* App */,
 				SAM000000000043 /* UI */,
+				SAM0000000000E2 /* license.json */,
 			);
 			path = MergenSample;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				SAM0000000000E1 /* license.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

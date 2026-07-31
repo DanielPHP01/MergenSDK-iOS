@@ -1,0 +1,12 @@
+{
+  "license_key": "IDCARD-CDE4B86E-6B3B-482B-8FE3",
+  "app_id": "com.mergen.sample.ios",
+  "issue_date": "2026-07-31T11:12:23.237426Z",
+  "expiry_date": "2026-08-07T11:12:23.237426Z",
+  "features": [
+    "detection",
+    "crop",
+    "quality_check"
+  ],
+  "signature": "V9gWgkd4OL2h4E6r1OWznNGMRcJX+Ovwx5tCrWQrWE7Q/+tUMz+jTFwASWZ1/nVhhgEg+O3jplKGnXCGrMwD2DqmgBD+UaaY+NrVcRPTY75739fJqHHi9KMfTY7nm14lNMCAX6DatJot7EzyVQqF5BgUR0dAOWHzb76Y4t8TUUzCPGNIVZWgPqS4Lr0sLP4weCJ+4IudGBZD8fGsxiK/xHqp826sY8qQtu+PJEWmQGfkf+x7xpomuYvQ4zmV3p2CzUl6/UdEnwQ33YukXjcSv0sLSw0LeZ68uu860MHYtTNBFIowgkxvRh2nh//GQRDG2dpj+OZghUPGnNpCdcVyQQ=="
+}
