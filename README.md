@@ -2,6 +2,21 @@
 
 Binary SPM distribution of the Mergen ID-card scanning SDK.
 
+## Документация
+
+Полный комплект на русском — гайды по интеграции (SwiftUI / UIKit / headless,
+кастомизация рамки, verify по фото из галереи), справочники API обеих платформ
+(DocC для Swift, Dokka для Kotlin) и готовые примеры-файлы:
+
+**[mergen-docs-2.3.0.zip](https://github.com/DanielPHP01/MergenSDK-iOS/releases/download/v2.3.0/mergen-docs-2.3.0.zip)** (18 МБ)
+
+Распакуйте и откройте `site/guide/index.html` — гайды работают прямо из файла.
+Для DocC-справочника нужен локальный HTTP-сервер:
+```bash
+cd site && python3 -m http.server 8000
+# затем откройте http://localhost:8000/
+```
+
 ## Integration
 
 ```swift
