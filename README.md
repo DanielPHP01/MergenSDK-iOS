@@ -4,11 +4,11 @@ Binary SPM distribution of the Mergen ID-card scanning SDK.
 
 ## Пример
 
-Готовый sample-проект — [`Examples/MergenSample/`](Examples/MergenSample/):
+Готовый sample-проект — **[MergenSample-IOS](https://github.com/DanielPHP01/MergenSample-IOS)**:
 один экран с полным флоу (скан обеих сторон, гейт стороны/поколения, verify,
-результат, ошибки). Проект ссылается на этот пакет по тегу `2.3.0` — откройте
-`MergenSample.xcodeproj`, добавьте ваш `license.json` в ресурсы таргета — и
-запускайте.
+результат, ошибки). Проект ссылается на этот пакет по тегу `2.3.0`, тестовая
+лицензия на 7 дней вложена — клонируйте, откройте `MergenSample.xcodeproj`
+и запускайте.
 
 ## Документация
 
