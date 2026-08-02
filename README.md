@@ -11,7 +11,7 @@ Binary SPM distribution of the Mergen ID-card scanning SDK.
 ## Документация
 
 Полный комплект на русском (гайды + DocC + Dokka):
-**[mergen-docs-2.3.0.zip](https://github.com/DanielPHP01/MergenSDK-iOS/releases/download/v2.3.0/mergen-docs-2.3.0.zip)** (18 МБ)
+**[mergen-docs-2.3.1.zip](https://github.com/DanielPHP01/MergenSDK-iOS/releases/download/v2.3.1/mergen-docs-2.3.1.zip)** (17 МБ)
 
 ## Integration
 
