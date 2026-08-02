@@ -291,6 +291,11 @@ public struct MergenScanResult {
     get
   }
   #if compiler(>=5.3) && $NonescapableTypes
+  public var docNumber: Swift.String? {
+    get
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public var detectedSide: Mergen.MIDSide? {
     get
   }

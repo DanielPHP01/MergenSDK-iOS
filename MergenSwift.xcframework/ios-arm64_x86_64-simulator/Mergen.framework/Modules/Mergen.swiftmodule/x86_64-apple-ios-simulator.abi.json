@@ -10247,6 +10247,63 @@
           },
           {
             "kind": "Var",
+            "name": "docNumber",
+            "printedName": "docNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A10ScanResultV9docNumberSSSgvp",
+            "mangledName": "$s6Mergen0A10ScanResultV9docNumberSSSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A10ScanResultV9docNumberSSSgvg",
+                "mangledName": "$s6Mergen0A10ScanResultV9docNumberSSSgvg",
+                "moduleName": "Mergen",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "detectedSide",
             "printedName": "detectedSide",
             "children": [
@@ -26658,161 +26715,161 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "StringLiteral",
-      "offset": 7155,
+      "offset": 8126,
       "length": 6,
       "value": "\"2008\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "StringLiteral",
-      "offset": 7179,
+      "offset": 8150,
       "length": 6,
       "value": "\"2017\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "StringLiteral",
-      "offset": 7203,
+      "offset": 8174,
       "length": 6,
       "value": "\"2025\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 14317,
+      "offset": 15288,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 14372,
+      "offset": 15343,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 14428,
+      "offset": 15399,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 14487,
+      "offset": 15458,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 28271,
+      "offset": 29242,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 32824,
+      "offset": 33795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 35142,
+      "offset": 36113,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35190,
+      "offset": 36161,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35235,
+      "offset": 36206,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35273,
+      "offset": 36244,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 35276,
+      "offset": 36247,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35290,
+      "offset": 36261,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 35293,
+      "offset": 36264,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35306,
+      "offset": 36277,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 35309,
+      "offset": 36280,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 35323,
+      "offset": 36294,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 35806,
+      "offset": 36777,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 35829,
+      "offset": 36800,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "Array",
-      "offset": 48526,
+      "offset": 49497,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 48564,
+      "offset": 49535,
       "length": 5,
       "value": "false"
     },
