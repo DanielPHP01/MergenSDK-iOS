@@ -18,7 +18,7 @@ Binary SPM distribution of the Mergen ID-card scanning SDK.
 ```swift
 // Package.swift
 dependencies: [
-    .package(url: "https://github.com/DanielPHP01/MergenSDK-iOS", from: "2.4.0")
+    .package(url: "https://github.com/DanielPHP01/MergenSDK-iOS", from: "2.5.0")
 ]
 // target dependency:
 .target(name: "YourApp", dependencies: [.product(name: "Mergen", package: "MergenSDK-iOS")])
