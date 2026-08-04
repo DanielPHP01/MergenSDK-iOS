@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Mergen
+// swift-module-flags: -target arm64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Mergen
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
 import Accelerate
@@ -406,6 +406,7 @@ public struct MergenScannerConfig {
   public var handlePermissionsInternally: Swift.Bool
   public var useUnifiedDetector: Swift.Bool
   public var ortIntraOpCap: Swift.Int?
+  public var deferBackMrz: Swift.Bool
   public init()
   public init(_ configure: (inout Mergen.MergenScannerConfig) -> Swift.Void)
   public static var strict: Mergen.MergenScannerConfig {
@@ -570,6 +571,9 @@ public struct ScannerFrameState {
   public var isCardInGuide: Swift.Bool
   public var scanRoiInView: CoreFoundation.CGRect?
   public static let empty: Mergen.ScannerFrameState
+}
+extension Mergen.ScannerFrameState : Swift.Equatable {
+  public static func == (a: Mergen.ScannerFrameState, b: Mergen.ScannerFrameState) -> Swift.Bool
 }
 public enum BBoxDrawStyle {
   case fullRect

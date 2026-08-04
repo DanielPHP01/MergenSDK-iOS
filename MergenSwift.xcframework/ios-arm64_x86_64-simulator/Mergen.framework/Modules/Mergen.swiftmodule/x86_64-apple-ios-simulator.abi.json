@@ -14030,6 +14030,93 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "deferBackMrz",
+            "printedName": "deferBackMrz",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A13ScannerConfigV12deferBackMrzSbvp",
+            "mangledName": "$s6Mergen0A13ScannerConfigV12deferBackMrzSbvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV12deferBackMrzSbvg",
+                "mangledName": "$s6Mergen0A13ScannerConfigV12deferBackMrzSbvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV12deferBackMrzSbvs",
+                "mangledName": "$s6Mergen0A13ScannerConfigV12deferBackMrzSbvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV12deferBackMrzSbvM",
+                "mangledName": "$s6Mergen0A13ScannerConfigV12deferBackMrzSbvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -19641,6 +19728,42 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerFrameState",
+                "printedName": "Mergen.ScannerFrameState",
+                "usr": "s:6Mergen17ScannerFrameStateV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScannerFrameState",
+                "printedName": "Mergen.ScannerFrameState",
+                "usr": "s:6Mergen17ScannerFrameStateV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen17ScannerFrameStateV2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Mergen17ScannerFrameStateV2eeoiySbAC_ACtFZ",
+            "moduleName": "Mergen",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -19665,6 +19788,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },
@@ -22557,6 +22687,20 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Mergen"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Mergen"
+      },
+      {
+        "kind": "Import",
+        "name": "os",
+        "printedName": "os",
         "declKind": "Import",
         "moduleName": "Mergen"
       },
@@ -26580,6 +26724,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 52873,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
       "kind": "StringLiteral",
       "offset": 96,
@@ -26617,7 +26768,14 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 37657,
+      "offset": 33967,
+      "length": 5,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41432,
       "length": 6,
       "value": "10000"
     },
@@ -26764,112 +26922,112 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 29242,
+      "offset": 29989,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 33795,
+      "offset": 34542,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 36113,
+      "offset": 37643,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36161,
+      "offset": 37691,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36206,
+      "offset": 37736,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36244,
+      "offset": 37774,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 36247,
+      "offset": 37777,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36261,
+      "offset": 37791,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 36264,
+      "offset": 37794,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36277,
+      "offset": 37807,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 36280,
+      "offset": 37810,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 36294,
+      "offset": 37824,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 36777,
+      "offset": 38307,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 36800,
+      "offset": 38330,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "Array",
-      "offset": 49497,
+      "offset": 59717,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 49535,
+      "offset": 59755,
       "length": 5,
       "value": "false"
     },
@@ -26984,6 +27142,13 @@
       "offset": 29084,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 33110,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
@@ -27394,7 +27559,7 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 38619,
+      "offset": 40114,
       "length": 4,
       "value": "true"
     },
@@ -28213,21 +28378,21 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "IntegerLiteral",
-      "offset": 10721,
+      "offset": 12488,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "FloatLiteral",
-      "offset": 11601,
+      "offset": 13368,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/BBoxSpringAnimator.swift",
       "kind": "FloatLiteral",
-      "offset": 11607,
+      "offset": 13374,
       "length": 4,
       "value": "60.0"
     },
@@ -28311,21 +28476,21 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 24104,
+      "offset": 26925,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
       "kind": "FloatLiteral",
-      "offset": 31169,
+      "offset": 33990,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/CameraSession.swift",
       "kind": "BooleanLiteral",
-      "offset": 33004,
+      "offset": 35825,
       "length": 5,
       "value": "false"
     },
@@ -28416,406 +28581,413 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Dictionary",
-      "offset": 2317,
+      "offset": 4249,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 4572,
+      "offset": 6504,
       "length": 23,
       "value": "\"com.mergen.processing\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4785,
+      "offset": 6717,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 4932,
+      "offset": 6864,
       "length": 17,
       "value": "\"com.idcard.yolo\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5129,
+      "offset": 7061,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5552,
+      "offset": 7484,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5901,
+      "offset": 7833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7013,
+      "offset": 8945,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7056,
+      "offset": 8988,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7822,
+      "offset": 9754,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10978,
+      "offset": 12910,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11483,
+      "offset": 13415,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11588,
+      "offset": 13520,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11686,
+      "offset": 13618,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 11790,
+      "offset": 13722,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 11899,
+      "offset": 13831,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12085,
+      "offset": 14017,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12124,
+      "offset": 14056,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12217,
+      "offset": 14149,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12342,
+      "offset": 14274,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12467,
+      "offset": 14399,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12595,
+      "offset": 14527,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 15839,
+      "offset": 17771,
       "length": 4,
       "value": "0.92"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 15957,
+      "offset": 17889,
       "length": 4,
       "value": "0.84"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 16086,
+      "offset": 18018,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 16201,
+      "offset": 18133,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16508,
+      "offset": 18440,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16645,
+      "offset": 18577,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16779,
+      "offset": 18711,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16984,
+      "offset": 18916,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17026,
+      "offset": 18958,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 17068,
+      "offset": 19000,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18661,
+      "offset": 20593,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 18832,
+      "offset": 20764,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 18881,
+      "offset": 20813,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19302,
+      "offset": 21234,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19863,
+      "offset": 21795,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20075,
+      "offset": 22007,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20358,
+      "offset": 22290,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 20487,
+      "offset": 22419,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20778,
+      "offset": 22710,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 20926,
+      "offset": 22858,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21570,
+      "offset": 23502,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22717,
+      "offset": 24649,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22813,
+      "offset": 24745,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 24127,
+      "offset": 26059,
       "length": 5,
       "value": "130.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25302,
+      "offset": 27234,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25346,
+      "offset": 27278,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25389,
+      "offset": 27321,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25432,
+      "offset": 27364,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 25480,
+      "offset": 27412,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 26422,
+      "offset": 28354,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 47873,
+      "offset": 50481,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 58061,
+      "offset": 60850,
+      "length": 5,
+      "value": "8000"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 62653,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 75655,
+      "offset": 80247,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 154031,
+      "offset": 158641,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 155826,
+      "offset": 160436,
       "length": 11,
       "value": "[6, 11, 12]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 155965,
+      "offset": 160575,
       "length": 5,
       "value": "false"
     },
