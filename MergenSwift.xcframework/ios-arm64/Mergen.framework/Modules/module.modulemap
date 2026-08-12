@@ -1,4 +1,3 @@
 framework module Mergen {
   header "Mergen-Swift.h"
-  requires objc
 }
