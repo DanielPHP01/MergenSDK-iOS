@@ -10791,7 +10791,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(side:license:configuration:bboxColor:bboxStyle:strokeWidth:cornerLength:showGuideFrame:progressBottomInset:scanRoi:onState:onResult:)",
+            "printedName": "init(side:license:configuration:bboxColor:bboxStyle:strokeWidth:cornerLength:showGuideFrame:progressBottomInset:scanRoi:torchOn:onState:onResult:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -10895,6 +10895,29 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "((Mergen.ScannerFrameState) -> ())?",
                 "children": [
                   {
@@ -10939,8 +10962,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7onState0V6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVArA08BBoxDrawI0O14CoreFoundation7CGFloatVAYSbAYSo6CGRectVSgyAA0zpW0VcSgyAA0abX0Vctcfc",
-            "mangledName": "$s6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7onState0V6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVArA08BBoxDrawI0O12CoreGraphics7CGFloatVAYSbAYSo6CGRectVSgyAA0zpW0VcSgyAA0abX0Vctcfc",
+            "usr": "s:6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7torchOn7onState0X6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVAsA08BBoxDrawI0O14CoreFoundation7CGFloatVAZSbAZSo6CGRectVSg7SwiftUI7BindingVySbGSgyAA07ScannerpY0VcSgyAA0abZ0Vctcfc",
+            "mangledName": "$s6Mergen0A8ScanViewV4side7license13configuration9bboxColor0G5Style11strokeWidth12cornerLength14showGuideFrame19progressBottomInset7scanRoi7torchOn7onState0X6ResultAcA7MIDSideO_SSSgAA0A13ScannerConfigVAsA08BBoxDrawI0O12CoreGraphics7CGFloatVAZSbAZSo6CGRectVSg7SwiftUI7BindingVySbGSgyAA07ScannerpY0VcSgyAA0abZ0Vctcfc",
             "moduleName": "Mergen",
             "declAttributes": [
               "Preconcurrency",
@@ -13374,6 +13397,93 @@
           },
           {
             "kind": "Var",
+            "name": "allowUnknownVersion",
+            "printedName": "allowUnknownVersion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A13ScannerConfigV19allowUnknownVersionSbvp",
+            "mangledName": "$s6Mergen0A13ScannerConfigV19allowUnknownVersionSbvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV19allowUnknownVersionSbvg",
+                "mangledName": "$s6Mergen0A13ScannerConfigV19allowUnknownVersionSbvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV19allowUnknownVersionSbvs",
+                "mangledName": "$s6Mergen0A13ScannerConfigV19allowUnknownVersionSbvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A13ScannerConfigV19allowUnknownVersionSbvM",
+                "mangledName": "$s6Mergen0A13ScannerConfigV19allowUnknownVersionSbvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "showAnalysisAnimation",
             "printedName": "showAnalysisAnimation",
             "children": [
@@ -14322,7 +14432,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(licenseKey:configuration:style:onFinished:onError:onEvent:customOverlay:)",
+            "printedName": "init(licenseKey:configuration:style:torchOn:awaitingFlip:onFinished:onError:onEvent:onFrameState:customOverlay:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14356,6 +14466,36 @@
                 "printedName": "Mergen.ScannerStyle",
                 "hasDefaultArg": true,
                 "usr": "s:6Mergen12ScannerStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -14430,6 +14570,33 @@
                 "usr": "s:Sq"
               },
               {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Mergen.ScannerFrameState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mergen.ScannerFrameState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerFrameState",
+                        "printedName": "Mergen.ScannerFrameState",
+                        "usr": "s:6Mergen17ScannerFrameStateV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
                 "kind": "TypeFunc",
                 "name": "Function",
                 "printedName": "(Mergen.ScannerFrameState) -> τ_0_0",
@@ -14449,8 +14616,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Mergen0A11ScannerViewV10licenseKey13configuration5style10onFinished0H5Error0H5Event13customOverlayACyxGSS_AA0aB6ConfigVAA0B5StyleVyAA0A8IdResultVcys0J0_pcSgyAA0bK0OcSgxAA0B10FrameStateVctcfc",
-            "mangledName": "$s6Mergen0A11ScannerViewV10licenseKey13configuration5style10onFinished0H5Error0H5Event13customOverlayACyxGSS_AA0aB6ConfigVAA0B5StyleVyAA0A8IdResultVcys0J0_pcSgyAA0bK0OcSgxAA0B10FrameStateVctcfc",
+            "usr": "s:6Mergen0A11ScannerViewV10licenseKey13configuration5style7torchOn12awaitingFlip10onFinished0L5Error0L5Event0L10FrameState13customOverlayACyxGSS_AA0aB6ConfigVAA0B5StyleV7SwiftUI7BindingVySbGSgSbyAA0A8IdResultVcys0N0_pcSgyAA0bO0OcSgyAA0bpQ0VcSgxA4_ctcfc",
+            "mangledName": "$s6Mergen0A11ScannerViewV10licenseKey13configuration5style7torchOn12awaitingFlip10onFinished0L5Error0L5Event0L10FrameState13customOverlayACyxGSS_AA0aB6ConfigVAA0B5StyleV7SwiftUI7BindingVySbGSgSbyAA0A8IdResultVcys0N0_pcSgyAA0bO0OcSgyAA0bpQ0VcSgxA4_ctcfc",
             "moduleName": "Mergen",
             "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
             "sugared_genericSig": "<Overlay where Overlay : SwiftUI.View>",
@@ -14523,7 +14690,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(licenseKey:configuration:style:onFinished:onError:onEvent:)",
+            "printedName": "init(licenseKey:configuration:style:torchOn:awaitingFlip:onFinished:onError:onEvent:onFrameState:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -14557,6 +14724,36 @@
                 "printedName": "Mergen.ScannerStyle",
                 "hasDefaultArg": true,
                 "usr": "s:6Mergen12ScannerStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Binding<Swift.Bool>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Binding",
+                    "printedName": "SwiftUI.Binding<Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI7BindingV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
               },
               {
                 "kind": "TypeFunc",
@@ -14629,11 +14826,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Mergen.ScannerFrameState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mergen.ScannerFrameState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerFrameState",
+                        "printedName": "Mergen.ScannerFrameState",
+                        "usr": "s:6Mergen17ScannerFrameStateV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:6Mergen0A11ScannerViewVAA7SwiftUI05EmptyC0VRszrlE10licenseKey13configuration5style10onFinished0K5Error0K5EventACyAFGSS_AA0aB6ConfigVAA0B5StyleVyAA0A8IdResultVcys0M0_pcSgyAA0bN0OcSgtcfc",
-            "mangledName": "$s6Mergen0A11ScannerViewVAA7SwiftUI05EmptyC0VRszrlE10licenseKey13configuration5style10onFinished0K5Error0K5EventACyAFGSS_AA0aB6ConfigVAA0B5StyleVyAA0A8IdResultVcys0M0_pcSgyAA0bN0OcSgtcfc",
+            "usr": "s:6Mergen0A11ScannerViewVAA7SwiftUI05EmptyC0VRszrlE10licenseKey13configuration5style7torchOn12awaitingFlip10onFinished0O5Error0O5Event0O10FrameStateACyAFGSS_AA0aB6ConfigVAA0B5StyleVAD7BindingVySbGSgSbyAA0A8IdResultVcys0Q0_pcSgyAA0bR0OcSgyAA0bsT0VcSgtcfc",
+            "mangledName": "$s6Mergen0A11ScannerViewVAA7SwiftUI05EmptyC0VRszrlE10licenseKey13configuration5style7torchOn12awaitingFlip10onFinished0O5Error0O5Event0O10FrameStateACyAFGSS_AA0aB6ConfigVAA0B5StyleVAD7BindingVySbGSgSbyAA0A8IdResultVcys0Q0_pcSgyAA0bR0OcSgyAA0bsT0VcSgtcfc",
             "moduleName": "Mergen",
             "genericSig": "<τ_0_0 where τ_0_0 == SwiftUI.EmptyView>",
             "sugared_genericSig": "<Overlay where Overlay == SwiftUI.EmptyView>",
@@ -15537,6 +15761,35 @@
             "declKind": "Func",
             "usr": "s:6Mergen0A18ScannerStateHandleC20setFlashlightEnabledyySbF",
             "mangledName": "$s6Mergen0A18ScannerStateHandleC20setFlashlightEnabledyySbF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAwaitingFlip",
+            "printedName": "setAwaitingFlip(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen0A18ScannerStateHandleC15setAwaitingFlipyySbF",
+            "mangledName": "$s6Mergen0A18ScannerStateHandleC15setAwaitingFlipyySbF",
             "moduleName": "Mergen",
             "declAttributes": [
               "Custom",
@@ -16570,6 +16823,165 @@
           },
           {
             "kind": "Var",
+            "name": "onFrameState",
+            "printedName": "onFrameState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Mergen.ScannerFrameState) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Mergen.ScannerFrameState) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerFrameState",
+                        "printedName": "Mergen.ScannerFrameState",
+                        "usr": "s:6Mergen17ScannerFrameStateV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvp",
+            "mangledName": "$s6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Mergen.ScannerFrameState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Mergen.ScannerFrameState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerFrameState",
+                            "printedName": "Mergen.ScannerFrameState",
+                            "usr": "s:6Mergen17ScannerFrameStateV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvg",
+                "mangledName": "$s6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((Mergen.ScannerFrameState) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Mergen.ScannerFrameState) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ScannerFrameState",
+                            "printedName": "Mergen.ScannerFrameState",
+                            "usr": "s:6Mergen17ScannerFrameStateV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvs",
+                "mangledName": "$s6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvM",
+                "mangledName": "$s6Mergen0A21ScannerViewControllerC12onFrameStateyAA0bfG0VcSgvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "customOverlayRenderer",
             "printedName": "customOverlayRenderer",
             "children": [
@@ -16635,7 +17047,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -16935,7 +17348,8 @@
               "Preconcurrency",
               "Custom",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -18556,6 +18970,677 @@
         "moduleName": "Mergen"
       },
       {
+        "kind": "TypeDecl",
+        "name": "ScanStatus",
+        "printedName": "ScanStatus",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "noCard",
+            "printedName": "noCard",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO6noCardyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO6noCardyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "cardOutsideGuide",
+            "printedName": "cardOutsideGuide",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO16cardOutsideGuideyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO16cardOutsideGuideyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "holdSteady",
+            "printedName": "holdSteady",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO10holdSteadyyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO10holdSteadyyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "analyzing",
+            "printedName": "analyzing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO9analyzingyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO9analyzingyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "wrongSide",
+            "printedName": "wrongSide",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO9wrongSideyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO9wrongSideyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notKgDocument",
+            "printedName": "notKgDocument",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO13notKgDocumentyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO13notKgDocumentyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "flipDocument",
+            "printedName": "flipDocument",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO12flipDocumentyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO12flipDocumentyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tooClose",
+            "printedName": "tooClose",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO8tooCloseyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO8tooCloseyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tooFar",
+            "printedName": "tooFar",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO6tooFaryA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO6tooFaryA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tooBright",
+            "printedName": "tooBright",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO9tooBrightyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO9tooBrightyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tooDark",
+            "printedName": "tooDark",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO7tooDarkyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO7tooDarkyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "capturing",
+            "printedName": "capturing",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO9capturingyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO9capturingyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finished",
+            "printedName": "finished",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> (Swift.Bool) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool) -> Mergen.ScanStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(success: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO8finishedyACSb_tcACmF",
+            "mangledName": "$s6Mergen10ScanStatusO8finishedyACSb_tcACmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "occluded",
+            "printedName": "occluded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScanStatus.Type) -> Mergen.ScanStatus",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScanStatus.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScanStatus",
+                        "printedName": "Mergen.ScanStatus",
+                        "usr": "s:6Mergen10ScanStatusO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen10ScanStatusO8occludedyA2CmF",
+            "mangledName": "$s6Mergen10ScanStatusO8occludedyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanStatus",
+                "printedName": "Mergen.ScanStatus",
+                "usr": "s:6Mergen10ScanStatusO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ScanStatus",
+                "printedName": "Mergen.ScanStatus",
+                "usr": "s:6Mergen10ScanStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6Mergen10ScanStatusO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s6Mergen10ScanStatusO2eeoiySbAC_ACtFZ",
+            "moduleName": "Mergen",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Mergen10ScanStatusO",
+        "mangledName": "$s6Mergen10ScanStatusO",
+        "moduleName": "Mergen",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Mergen"
+      },
+      {
         "kind": "Import",
         "name": "CoreGraphics",
         "printedName": "CoreGraphics",
@@ -18669,6 +19754,66 @@
           },
           {
             "kind": "Var",
+            "name": "documentLost",
+            "printedName": "documentLost",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScannerEvent.Type) -> (Swift.Double) -> Mergen.ScannerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Double) -> Mergen.ScannerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerEvent",
+                        "printedName": "Mergen.ScannerEvent",
+                        "usr": "s:6Mergen12ScannerEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(secondsSinceLastSeen: Swift.Double)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Double",
+                            "printedName": "Swift.Double",
+                            "usr": "s:Sd"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScannerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerEvent",
+                        "printedName": "Mergen.ScannerEvent",
+                        "usr": "s:6Mergen12ScannerEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen12ScannerEventO12documentLostyACSd_tcACmF",
+            "mangledName": "$s6Mergen12ScannerEventO12documentLostyACSd_tcACmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "processing",
             "printedName": "processing",
             "children": [
@@ -18722,6 +19867,72 @@
             "declKind": "EnumElement",
             "usr": "s:6Mergen12ScannerEventO10processingyACSf_tcACmF",
             "mangledName": "$s6Mergen12ScannerEventO10processingyACSf_tcACmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "torchChanged",
+            "printedName": "torchChanged",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.ScannerEvent.Type) -> (Swift.Bool, Swift.Bool) -> Mergen.ScannerEvent",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool, Swift.Bool) -> Mergen.ScannerEvent",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerEvent",
+                        "printedName": "Mergen.ScannerEvent",
+                        "usr": "s:6Mergen12ScannerEventO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(enabled: Swift.Bool, isAuto: Swift.Bool)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.ScannerEvent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ScannerEvent",
+                        "printedName": "Mergen.ScannerEvent",
+                        "usr": "s:6Mergen12ScannerEventO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen12ScannerEventO12torchChangedyACSb_SbtcACmF",
+            "mangledName": "$s6Mergen12ScannerEventO12torchChangedyACSb_SbtcACmF",
             "moduleName": "Mergen",
             "declAttributes": [
               "RawDocComment"
@@ -18879,6 +20090,280 @@
         "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "Mergen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcclusionType",
+        "printedName": "OcclusionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "none",
+            "printedName": "none",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.OcclusionType.Type) -> Mergen.OcclusionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.OcclusionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OcclusionType",
+                        "printedName": "Mergen.OcclusionType",
+                        "usr": "s:6Mergen13OcclusionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen13OcclusionTypeO4noneyA2CmF",
+            "mangledName": "$s6Mergen13OcclusionTypeO4noneyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finger",
+            "printedName": "finger",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.OcclusionType.Type) -> Mergen.OcclusionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.OcclusionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OcclusionType",
+                        "printedName": "Mergen.OcclusionType",
+                        "usr": "s:6Mergen13OcclusionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen13OcclusionTypeO6fingeryA2CmF",
+            "mangledName": "$s6Mergen13OcclusionTypeO6fingeryA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shadow",
+            "printedName": "shadow",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Mergen.OcclusionType.Type) -> Mergen.OcclusionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Mergen.OcclusionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OcclusionType",
+                        "printedName": "Mergen.OcclusionType",
+                        "usr": "s:6Mergen13OcclusionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6Mergen13OcclusionTypeO6shadowyA2CmF",
+            "mangledName": "$s6Mergen13OcclusionTypeO6shadowyA2CmF",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Mergen.OcclusionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6Mergen13OcclusionTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s6Mergen13OcclusionTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen13OcclusionTypeO8rawValueSivp",
+            "mangledName": "$s6Mergen13OcclusionTypeO8rawValueSivp",
+            "moduleName": "Mergen",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen13OcclusionTypeO8rawValueSivg",
+                "mangledName": "$s6Mergen13OcclusionTypeO8rawValueSivg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:6Mergen13OcclusionTypeO",
+        "mangledName": "$s6Mergen13OcclusionTypeO",
+        "moduleName": "Mergen",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19675,6 +21160,441 @@
                 "declKind": "Accessor",
                 "usr": "s:6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvM",
                 "mangledName": "$s6Mergen17ScannerFrameStateV13scanRoiInViewSo6CGRectVSgvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "scanStatus",
+            "printedName": "scanStatus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ScanStatus",
+                "printedName": "Mergen.ScanStatus",
+                "usr": "s:6Mergen10ScanStatusO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ScanStatus",
+                    "printedName": "Mergen.ScanStatus",
+                    "usr": "s:6Mergen10ScanStatusO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0Ovs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0OvM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10scanStatusAA04ScanF0OvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFingerOccluded",
+            "printedName": "isFingerOccluded",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV16isFingerOccludedSbvp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV16isFingerOccludedSbvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV16isFingerOccludedSbvg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV16isFingerOccludedSbvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV16isFingerOccludedSbvs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV16isFingerOccludedSbvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV16isFingerOccludedSbvM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV16isFingerOccludedSbvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isShadowed",
+            "printedName": "isShadowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV10isShadowedSbvp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV10isShadowedSbvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10isShadowedSbvg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10isShadowedSbvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10isShadowedSbvs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10isShadowedSbvs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV10isShadowedSbvM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV10isShadowedSbvM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "occludedFieldId",
+            "printedName": "occludedFieldId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV15occludedFieldIdSivp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV15occludedFieldIdSivp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV15occludedFieldIdSivg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV15occludedFieldIdSivg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV15occludedFieldIdSivs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV15occludedFieldIdSivs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV15occludedFieldIdSivM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV15occludedFieldIdSivM",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "occlusionType",
+            "printedName": "occlusionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcclusionType",
+                "printedName": "Mergen.OcclusionType",
+                "usr": "s:6Mergen13OcclusionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovp",
+            "mangledName": "$s6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovg",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovs",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0Ovs",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0OvM",
+                "mangledName": "$s6Mergen17ScannerFrameStateV13occlusionTypeAA09OcclusionF0OvM",
                 "moduleName": "Mergen",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -26768,14 +28688,21 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 33967,
+      "offset": 13961,
+      "length": 2,
+      "value": "31"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
+      "kind": "IntegerLiteral",
+      "offset": 36728,
       "length": 5,
       "value": "8000"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenEngine.swift",
       "kind": "IntegerLiteral",
-      "offset": 41432,
+      "offset": 44193,
       "length": 6,
       "value": "10000"
     },
@@ -26894,140 +28821,140 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 15288,
+      "offset": 16851,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 15343,
+      "offset": 16906,
       "length": 2,
       "value": "28"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 15399,
+      "offset": 16962,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 15458,
+      "offset": 17021,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 29989,
+      "offset": 32399,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 34542,
+      "offset": 36952,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 37643,
+      "offset": 40053,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 37691,
+      "offset": 40101,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 37736,
+      "offset": 40146,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 37774,
+      "offset": 40184,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 37777,
+      "offset": 40187,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 37791,
+      "offset": 40201,
       "length": 2,
       "value": "38"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 37794,
+      "offset": 40204,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 37807,
+      "offset": 40217,
       "length": 2,
       "value": "42"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 37810,
+      "offset": 40220,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "FloatLiteral",
-      "offset": 37824,
+      "offset": 40234,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "IntegerLiteral",
-      "offset": 38307,
+      "offset": 40717,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 38330,
+      "offset": 40740,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "Array",
-      "offset": 59717,
+      "offset": 62127,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScan.swift",
       "kind": "BooleanLiteral",
-      "offset": 59755,
+      "offset": 62165,
       "length": 5,
       "value": "false"
     },
@@ -27111,112 +29038,140 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 21328,
+      "offset": 23072,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24077,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 22272,
+      "offset": 26388,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 23593,
+      "offset": 27709,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 28029,
+      "offset": 32145,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 29084,
+      "offset": 33200,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 33110,
+      "offset": 37226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "BooleanLiteral",
-      "offset": 13387,
+      "offset": 7073,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20417,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24235,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 19648,
+      "offset": 34420,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 22899,
+      "offset": 37671,
       "length": 3,
       "value": "3.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 22988,
+      "offset": 37760,
       "length": 4,
       "value": "0.85"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerView.swift",
       "kind": "FloatLiteral",
-      "offset": 23620,
+      "offset": 38392,
       "length": 5,
       "value": "0.350"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4857,
+      "offset": 6946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 17125,
+      "offset": 19449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19128,
+      "offset": 21663,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 19132,
+      "offset": 21667,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenScannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19147,
+      "offset": 21682,
       "length": 4,
       "value": "true"
     },
@@ -27468,182 +29423,259 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4328,
+      "offset": 4316,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4403,
+      "offset": 4391,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "BooleanLiteral",
-      "offset": 4502,
+      "offset": 4490,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 5223,
+      "offset": 5396,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
       "kind": "IntegerLiteral",
-      "offset": 5593,
+      "offset": 5766,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6478,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6803,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenTypes.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7075,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8489,
+      "offset": 8774,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8551,
+      "offset": 8836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8688,
+      "offset": 8973,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8829,
+      "offset": 9114,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 8969,
+      "offset": 9254,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9767,
+      "offset": 10052,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9832,
+      "offset": 10117,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 9898,
+      "offset": 10183,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/MergenVerifyView.swift",
       "kind": "BooleanLiteral",
-      "offset": 40114,
+      "offset": 45329,
       "length": 4,
       "value": "true"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5136,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5740,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7336,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 7386,
+      "offset": 885,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 7399,
+      "offset": 963,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1051,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6742,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11496,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11657,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12328,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13018,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13068,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13081,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "StringLiteral",
-      "offset": 7416,
+      "offset": 13098,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "StringLiteral",
-      "offset": 7433,
+      "offset": 13115,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 7457,
+      "offset": 13139,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 7474,
+      "offset": 13156,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "IntegerLiteral",
-      "offset": 7528,
+      "offset": 13210,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 7544,
+      "offset": 13226,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/ScannerFrameState.swift",
       "kind": "BooleanLiteral",
-      "offset": 7563,
+      "offset": 13245,
       "length": 5,
       "value": "false"
     },
@@ -28588,406 +30620,518 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 6504,
+      "offset": 6498,
       "length": 23,
       "value": "\"com.mergen.processing\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6717,
+      "offset": 6711,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 6864,
+      "offset": 6858,
       "length": 17,
       "value": "\"com.idcard.yolo\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7061,
+      "offset": 7055,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7484,
+      "offset": 7478,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7833,
+      "offset": 7827,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8945,
+      "offset": 8939,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8988,
+      "offset": 8982,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9754,
+      "offset": 9748,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12910,
+      "offset": 13549,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13415,
+      "offset": 14054,
       "length": 1,
       "value": "6"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13520,
+      "offset": 14159,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13618,
+      "offset": 14257,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13722,
+      "offset": 14361,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 13831,
+      "offset": 14470,
       "length": 3,
       "value": "0.4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "FloatLiteral",
+      "offset": 15109,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14017,
+      "offset": 15247,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15431,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14056,
+      "offset": 15470,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14149,
+      "offset": 15563,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14274,
+      "offset": 15688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14399,
+      "offset": 15813,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14527,
+      "offset": 15941,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16288,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 17771,
+      "offset": 19411,
       "length": 4,
       "value": "0.92"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 17889,
+      "offset": 19529,
       "length": 4,
       "value": "0.84"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 18018,
+      "offset": 19658,
       "length": 4,
       "value": "0.06"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 18133,
+      "offset": 19773,
       "length": 4,
       "value": "0.10"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18440,
+      "offset": 20080,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18577,
+      "offset": 20217,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18711,
+      "offset": 20351,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18916,
+      "offset": 20556,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18958,
+      "offset": 20598,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 19000,
+      "offset": 20640,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20593,
+      "offset": 22233,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 20764,
+      "offset": 22404,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "StringLiteral",
-      "offset": 20813,
+      "offset": 22453,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21234,
+      "offset": 23175,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 21795,
+      "offset": 23736,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22007,
+      "offset": 23948,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22290,
+      "offset": 24231,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22419,
+      "offset": 24360,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26010,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 22710,
+      "offset": 26111,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "FloatLiteral",
+      "offset": 26552,
+      "length": 3,
+      "value": "1.2"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "FloatLiteral",
+      "offset": 26689,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29981,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 22858,
+      "offset": 30129,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23502,
+      "offset": 30773,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24649,
+      "offset": 33093,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24745,
+      "offset": 33189,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "FloatLiteral",
-      "offset": 26059,
+      "offset": 34503,
       "length": 5,
       "value": "130.0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27234,
+      "offset": 35678,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27278,
+      "offset": 35722,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27321,
+      "offset": 35765,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27364,
+      "offset": 35808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27412,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 28354,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 50481,
+      "offset": 35856,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 60850,
+      "offset": 37512,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37633,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37752,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37889,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 38010,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "FloatLiteral",
+      "offset": 38961,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39237,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 39276,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43581,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 44522,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 69134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 81784,
       "length": 5,
       "value": "8000"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 62653,
+      "offset": 83587,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 80247,
+      "offset": 101181,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 158641,
+      "offset": 206707,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 160436,
+      "offset": 208502,
       "length": 11,
       "value": "[6, 11, 12]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 160575,
+      "offset": 208641,
       "length": 5,
       "value": "false"
     },

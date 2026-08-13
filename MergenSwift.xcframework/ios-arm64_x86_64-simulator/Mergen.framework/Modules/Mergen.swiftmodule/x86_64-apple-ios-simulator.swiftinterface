@@ -285,7 +285,7 @@ public enum MergenDocGeneration : Swift.String, Swift.CaseIterable {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct MergenScanView : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(side: Mergen.MIDSide, license: Swift.String? = nil, configuration: Mergen.MergenScannerConfig = .init(), bboxColor: Swift.String? = nil, bboxStyle: Mergen.BBoxDrawStyle = .cornersOnly, strokeWidth: CoreFoundation.CGFloat = 3, cornerLength: CoreFoundation.CGFloat = 28, showGuideFrame: Swift.Bool = false, progressBottomInset: CoreFoundation.CGFloat = 0, scanRoi: CoreFoundation.CGRect? = nil, onState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil, onResult: @escaping (Mergen.MergenScanResult) -> Swift.Void)
+  @_Concurrency.MainActor @preconcurrency public init(side: Mergen.MIDSide, license: Swift.String? = nil, configuration: Mergen.MergenScannerConfig = .init(), bboxColor: Swift.String? = nil, bboxStyle: Mergen.BBoxDrawStyle = .cornersOnly, strokeWidth: CoreFoundation.CGFloat = 3, cornerLength: CoreFoundation.CGFloat = 28, showGuideFrame: Swift.Bool = false, progressBottomInset: CoreFoundation.CGFloat = 0, scanRoi: CoreFoundation.CGRect? = nil, torchOn: SwiftUICore.Binding<Swift.Bool>? = nil, onState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil, onResult: @escaping (Mergen.MergenScanResult) -> Swift.Void)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -353,6 +353,7 @@ public struct MergenScannerConfig {
   public var enforceSideMatch: Swift.Bool
   public var expectedSide: Mergen.SideExpectation
   public var expectedGeneration: Swift.String?
+  public var allowUnknownVersion: Swift.Bool
   public var showAnalysisAnimation: Swift.Bool
   public var showCaptureTips: Swift.Bool
   public var autoTorch: Swift.Bool
@@ -371,14 +372,14 @@ public struct MergenScannerConfig {
   }
 }
 @_Concurrency.MainActor @preconcurrency public struct MergenScannerView<Overlay> : SwiftUICore.View where Overlay : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(licenseKey: Swift.String, configuration: Mergen.MergenScannerConfig = .init(), style: Mergen.ScannerStyle = .init(), onFinished: @escaping (Mergen.MergenIdResult) -> Swift.Void, onError: ((any Swift.Error) -> Swift.Void)? = nil, onEvent: ((Mergen.ScannerEvent) -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder customOverlay: @escaping (Mergen.ScannerFrameState) -> Overlay)
+  @_Concurrency.MainActor @preconcurrency public init(licenseKey: Swift.String, configuration: Mergen.MergenScannerConfig = .init(), style: Mergen.ScannerStyle = .init(), torchOn: SwiftUICore.Binding<Swift.Bool>? = nil, awaitingFlip: Swift.Bool = false, onFinished: @escaping (Mergen.MergenIdResult) -> Swift.Void, onError: ((any Swift.Error) -> Swift.Void)? = nil, onEvent: ((Mergen.ScannerEvent) -> Swift.Void)? = nil, onFrameState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil, @SwiftUICore.ViewBuilder customOverlay: @escaping (Mergen.ScannerFrameState) -> Overlay)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
   public typealias Body = @_opaqueReturnTypeOf("$s6Mergen0A11ScannerViewV4bodyQrvp", 0) __<Overlay>
 }
 extension Mergen.MergenScannerView where Overlay == SwiftUICore.EmptyView {
-  @_Concurrency.MainActor @preconcurrency public init(licenseKey: Swift.String, configuration: Mergen.MergenScannerConfig = .init(), style: Mergen.ScannerStyle = .init(), onFinished: @escaping (Mergen.MergenIdResult) -> Swift.Void, onError: ((any Swift.Error) -> Swift.Void)? = nil, onEvent: ((Mergen.ScannerEvent) -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(licenseKey: Swift.String, configuration: Mergen.MergenScannerConfig = .init(), style: Mergen.ScannerStyle = .init(), torchOn: SwiftUICore.Binding<Swift.Bool>? = nil, awaitingFlip: Swift.Bool = false, onFinished: @escaping (Mergen.MergenIdResult) -> Swift.Void, onError: ((any Swift.Error) -> Swift.Void)? = nil, onEvent: ((Mergen.ScannerEvent) -> Swift.Void)? = nil, onFrameState: ((Mergen.ScannerFrameState) -> Swift.Void)? = nil)
 }
 @_Concurrency.MainActor final public class MergenScannerStateHandle : Foundation.ObservableObject {
   @Combine.Published<Mergen.ScannerFrameState> @_projectedValueProperty($frameState) @_Concurrency.MainActor final public var frameState: Mergen.ScannerFrameState {
@@ -401,6 +402,7 @@ extension Mergen.MergenScannerView where Overlay == SwiftUICore.EmptyView {
   @_Concurrency.MainActor final public func stopScanning()
   @_Concurrency.MainActor final public func release()
   @_Concurrency.MainActor final public func setFlashlightEnabled(_ enabled: Swift.Bool)
+  @_Concurrency.MainActor final public func setAwaitingFlip(_ awaiting: Swift.Bool)
   @available(*, deprecated, renamed: "startScanning()", message: "Используйте updateViewSize(_:) + startScanning() — переименовано для кросс-платформенной согласованности (Phase A6).")
   @_Concurrency.MainActor final public func start(viewSize: CoreFoundation.CGSize = .zero)
   @available(*, deprecated, renamed: "stopScanning()", message: "Переименовано для кросс-платформенной согласованности (Phase A6).")
@@ -426,7 +428,11 @@ extension Mergen.MergenScannerDelegate {
   @_Concurrency.MainActor @preconcurrency final public var onFinished: ((Mergen.MergenIdResult) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var onError: ((any Swift.Error) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency final public var onEvent: ((Mergen.ScannerEvent) -> Swift.Void)?
-  @_Concurrency.MainActor @preconcurrency final public var customOverlayRenderer: Mergen.ScannerUIOverlayRenderer?
+  @_Concurrency.MainActor @preconcurrency final public var onFrameState: ((Mergen.ScannerFrameState) -> Swift.Void)?
+  @_Concurrency.MainActor @preconcurrency final public var customOverlayRenderer: Mergen.ScannerUIOverlayRenderer? {
+    get
+    set
+  }
   @_Concurrency.MainActor @preconcurrency final public var events: _Concurrency.AsyncStream<Mergen.ScannerEvent> {
     get
   }
@@ -490,12 +496,41 @@ public enum CardVersion : Swift.Int {
   @available(*, deprecated, message: "Moves to your app in v3.0 — copy the reference flow from MergenSampleiOS (SampleVerifyFlow.swift); see docs/dev/migration-v3.md")
   public typealias Body = @_opaqueReturnTypeOf("$s6Mergen0A10VerifyViewV4bodyQrvp", 0) __
 }
+public enum ScanStatus : Swift.Equatable, Swift.Sendable {
+  case noCard
+  case cardOutsideGuide
+  case holdSteady
+  case analyzing
+  case wrongSide
+  case notKgDocument
+  case flipDocument
+  case tooClose
+  case tooFar
+  case tooBright
+  case tooDark
+  case capturing
+  case finished(success: Swift.Bool)
+  case occluded
+  public static func == (a: Mergen.ScanStatus, b: Mergen.ScanStatus) -> Swift.Bool
+}
 public enum ScannerEvent {
   case cameraReady
   case documentDetected(bounds: CoreFoundation.CGRect)
+  case documentLost(secondsSinceLastSeen: Foundation.TimeInterval)
   case processing(progress: Swift.Float)
+  case torchChanged(enabled: Swift.Bool, isAuto: Swift.Bool)
   case success(Mergen.MergenIdResult)
   case error(any Swift.Error)
+}
+public enum OcclusionType : Swift.Int, Swift.Sendable {
+  case none
+  case finger
+  case shadow
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
 }
 public struct ScannerFrameState {
   public let engineState: Mergen.EngineState
@@ -512,6 +547,11 @@ public struct ScannerFrameState {
   public var isScanning: Swift.Bool
   public var isCardInGuide: Swift.Bool
   public var scanRoiInView: CoreFoundation.CGRect?
+  public var scanStatus: Mergen.ScanStatus
+  public var isFingerOccluded: Swift.Bool
+  public var isShadowed: Swift.Bool
+  public var occludedFieldId: Swift.Int
+  public var occlusionType: Mergen.OcclusionType
   public static let empty: Mergen.ScannerFrameState
 }
 extension Mergen.ScannerFrameState : Swift.Equatable {
@@ -660,6 +700,9 @@ extension Mergen.CardVersion : Swift.Hashable {}
 extension Mergen.CardVersion : Swift.RawRepresentable {}
 @available(*, deprecated, message: "Moves to your app in v3.0 — copy the reference flow from MergenSampleiOS (SampleVerifyFlow.swift); see docs/dev/migration-v3.md")
 extension Mergen.MergenVerifyView : Swift.Sendable {}
+extension Mergen.OcclusionType : Swift.Equatable {}
+extension Mergen.OcclusionType : Swift.Hashable {}
+extension Mergen.OcclusionType : Swift.RawRepresentable {}
 extension Mergen.BBoxDrawStyle : Swift.Equatable {}
 extension Mergen.BBoxDrawStyle : Swift.Hashable {}
 extension Mergen.DiagOcrPass : Swift.Equatable {}
