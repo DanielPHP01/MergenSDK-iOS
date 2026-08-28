@@ -3552,6 +3552,96 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "frontOcclusion",
+            "printedName": "frontOcclusion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcclusionType",
+                "printedName": "Mergen.OcclusionType",
+                "usr": "s:6Mergen13OcclusionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV14frontOcclusionAA0E4TypeOvp",
+            "mangledName": "$s6Mergen12VerifyResultV14frontOcclusionAA0E4TypeOvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV14frontOcclusionAA0E4TypeOvg",
+                "mangledName": "$s6Mergen12VerifyResultV14frontOcclusionAA0E4TypeOvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backOcclusion",
+            "printedName": "backOcclusion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcclusionType",
+                "printedName": "Mergen.OcclusionType",
+                "usr": "s:6Mergen13OcclusionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen12VerifyResultV13backOcclusionAA0E4TypeOvp",
+            "mangledName": "$s6Mergen12VerifyResultV13backOcclusionAA0E4TypeOvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen12VerifyResultV13backOcclusionAA0E4TypeOvg",
+                "mangledName": "$s6Mergen12VerifyResultV13backOcclusionAA0E4TypeOvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Function",
             "name": "failed",
             "printedName": "failed(message:messageEn:frontPhoto:backPhoto:)",
@@ -7262,6 +7352,98 @@
                 "declKind": "Accessor",
                 "usr": "s:6Mergen0A8IdResultV04sideC4JsonSSSgvg",
                 "mangledName": "$s6Mergen0A8IdResultV04sideC4JsonSSSgvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frontOcclusion",
+            "printedName": "frontOcclusion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcclusionType",
+                "printedName": "Mergen.OcclusionType",
+                "usr": "s:6Mergen13OcclusionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A8IdResultV14frontOcclusionAA0E4TypeOvp",
+            "mangledName": "$s6Mergen0A8IdResultV14frontOcclusionAA0E4TypeOvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A8IdResultV14frontOcclusionAA0E4TypeOvg",
+                "mangledName": "$s6Mergen0A8IdResultV14frontOcclusionAA0E4TypeOvg",
+                "moduleName": "Mergen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backOcclusion",
+            "printedName": "backOcclusion",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcclusionType",
+                "printedName": "Mergen.OcclusionType",
+                "usr": "s:6Mergen13OcclusionTypeO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6Mergen0A8IdResultV13backOcclusionAA0E4TypeOvp",
+            "mangledName": "$s6Mergen0A8IdResultV13backOcclusionAA0E4TypeOvp",
+            "moduleName": "Mergen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcclusionType",
+                    "printedName": "Mergen.OcclusionType",
+                    "usr": "s:6Mergen13OcclusionTypeO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6Mergen0A8IdResultV13backOcclusionAA0E4TypeOvg",
+                "mangledName": "$s6Mergen0A8IdResultV13backOcclusionAA0E4TypeOvg",
                 "moduleName": "Mergen",
                 "implicit": true,
                 "accessorKind": "get"
@@ -28548,105 +28730,105 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "Array",
-      "offset": 11496,
+      "offset": 12319,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 21559,
+      "offset": 22597,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 21606,
+      "offset": 22644,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "IntegerLiteral",
-      "offset": 22177,
+      "offset": 23215,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 22222,
+      "offset": 23260,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 23257,
+      "offset": 24295,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 25019,
+      "offset": 26057,
       "length": 8,
       "value": "\"Mergen\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 27849,
+      "offset": 28887,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 27882,
+      "offset": 28920,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 31130,
+      "offset": 32168,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 31163,
+      "offset": 32201,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 46760,
+      "offset": 48285,
       "length": 12,
       "value": "\"com.mergen\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "StringLiteral",
-      "offset": 46784,
+      "offset": 48309,
       "length": 8,
       "value": "\"engine\""
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "BooleanLiteral",
-      "offset": 48505,
+      "offset": 50030,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/Mergen.swift",
       "kind": "IntegerLiteral",
-      "offset": 52873,
+      "offset": 54398,
       "length": 1,
       "value": "0"
     },
@@ -31110,28 +31292,28 @@
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 101181,
+      "offset": 102185,
       "length": 4,
       "value": "2048"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "IntegerLiteral",
-      "offset": 206707,
+      "offset": 207711,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "Array",
-      "offset": 208502,
+      "offset": 209506,
       "length": 11,
       "value": "[6, 11, 12]"
     },
     {
       "filePath": "\/Users\/danielalmazbekov\/Documents\/IdScanLibrary\/ScanIdCards\/iOSMergenSDK\/Sources\/internal\/ScannerEngineController.swift",
       "kind": "BooleanLiteral",
-      "offset": 208641,
+      "offset": 209645,
       "length": 5,
       "value": "false"
     },

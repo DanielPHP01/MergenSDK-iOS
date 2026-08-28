@@ -123,6 +123,8 @@ public struct VerifyResult {
   public let frontPhoto: UIKit.UIImage?
   public let backPhoto: UIKit.UIImage?
   public let mrzMatch: [Mergen.MrzMatch]
+  public let frontOcclusion: Mergen.OcclusionType
+  public let backOcclusion: Mergen.OcclusionType
   public static func failed(message: Swift.String, messageEn: Swift.String, frontPhoto: UIKit.UIImage? = nil, backPhoto: UIKit.UIImage? = nil) -> Mergen.VerifyResult
 }
 public enum VerifySideIssue : Swift.Equatable {
@@ -213,6 +215,12 @@ public struct MergenIdResult {
   public var croppedImageBack: UIKit.UIImage?
   public var finalJson: Swift.String?
   public var sideResultJson: Swift.String? {
+    get
+  }
+  public var frontOcclusion: Mergen.OcclusionType {
+    get
+  }
+  public var backOcclusion: Mergen.OcclusionType {
     get
   }
 }
